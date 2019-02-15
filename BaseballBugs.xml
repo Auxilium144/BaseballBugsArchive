@@ -1,0 +1,450 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+
+
+<!-- Remember, that top line is not really a tag. 
+    It is a processing instruction that tells the computer that this is an XML file 
+    and that it should be validated against a schema online at the TEI web site.-->
+
+<TEI xml:id="stnic.1948.001.xml" xmlns="http://www.tei-c.org/ns/1.0">
+    <!-- In the above line, change the xml:id to the id of your file: stnic.YYYYMM.001 
+        (the 001 can be changed to 002, etc if we are encoding more than one piece from a particular month) -->
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">Baseball Bugs</title>
+                
+            </titleStmt>
+
+
+            <!-- The following section records information about who is publishing this file. -->
+            <editionStmt>
+                <edition>
+                    <date>2019</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>University of Nebraska&#8211;Lincoln</publisher>
+                
+                <date>2019</date>
+                <availability>
+                    <p>This file is freely distributed and
+                        licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0
+                        Unported License</p>
+                </availability>
+            </publicationStmt>
+
+            <!-- A place to record additional info about the material -->
+            <notesStmt>
+                <note type="project">This file was produced for English 478/878: Digital Archives and Editions, Department of English, University of Nebraska-Lincoln, Spring 2019.</note>
+            </notesStmt>
+
+
+            <!-- This section describes the source, i.e., the document(s) you are encoding. -->
+
+            <sourceDesc>
+                <bibl>
+                    <!-- Insert title and date again here -->
+                    <title level="a">Baseball Bugs</title>
+                    
+                    <!-- Make an author or illustrator line for each one mentioned in the piece. -->
+                    <publisher>Westmill</publisher>
+                    <date when="184802">Feburary1848</date>
+                    <!-- Note that @when allows a regularized form of the date -->
+                  
+                    <pubPlace>Lincoln, Nebraska</pubPlace>
+                    <orgName>Westmill</orgName>
+                    <note>transcribed from sport collection, Special Collections, University Libraries, University of Nebraska-Lincoln. </note>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+            
+        </encodingDesc>
+        
+        <profileDesc>
+            <particDesc>
+                <listPerson type="referenced">
+                    <person xml:id="hwinsenberg">
+                        <persName>Hans Wisenberg</persName>
+                        <note>Was a prominent figure throughout the book, the protagonist of the issue.</note>
+                    </person>
+                </listPerson>
+            </particDesc>
+        </profileDesc>
+
+
+        <!-- This section records whose hands have been in the file. -->
+
+        <revisionDesc>
+            <change when="20190214">
+                <name>Noah Loos</name>
+                Encoded Header</change>
+        </revisionDesc>
+        
+    </teiHeader>
+
+
+    <!-- START ENCODING DOCUMENT HERE -->
+    <text>
+        <front>
+            <pb facs="01.jpg"/>
+            <head>CONSTITUTIONAL RIGHTS IN WAR-TIME</head>
+
+            <epigraph>
+                <quote><title>First Amendment to the Constitution </title> Congress shall make no
+                    law respecting an establishment of religion, or prohibiting the free exercise
+                    thereof; or abridging the freedom of speech, or of the press; or the right of
+                    the people peaceably to assemble, and to petition the Government for a redress
+                    of grievances. </quote>
+            </epigraph>
+
+            <docImprint>PUBLISHED BY <orgName>AMERICAN UNION AGAINST MILITARISM</orgName>
+                <address><addrLine>Munsey Building, Washington, D. C. </addrLine>
+            <addrLine>New York Office 
+            70 Fifth Avenue</addrLine></address>
+                <docDate>May, 1917 </docDate>
+                <figure>
+                    <figDesc>Union bug, Allied Printing Trades Council Washington</figDesc>
+                </figure></docImprint>
+            <pb facs="02.jpg"/>
+
+            <docImprint><orgName>AMERICAN UNION AGAINST MILITARISM</orgName>
+                <roleName>OFFICERS <name><persName>LILLIAN D. WALD</persName></name>,
+                        <roleName>Chairman</roleName>
+                    <name><persName>AMOS PINCHOT</persName></name>,
+                        <roleName>Vice-Chairman</roleName>
+                    <name><persName>L. HOLLINGSWORTH WOOD</persName></name>,
+                        <roleName>Treasurer</roleName>
+                    <name><persName>CRYSTAL EASTMAN</persName></name>,
+                        <roleName>Secretary</roleName>
+                    <name><persName>CHARLES T. HALLINAN</persName></name>, <roleName>Editorial
+                        Director.</roleName>
+                    <name><persName>ROGER N. BALDWIN</persName></name>, <roleName>Field
+                        Secretary</roleName>
+                </roleName>
+                <roleName>EXECUTIVE COMMITTEE</roleName>
+                <name><persName>JANE ADDAMS</persName>, <placeName>Illinois</placeName>
+                </name>
+                <name><persName>EMILY G. BALCH</persName>,
+                    <placeName>Massachusetts</placeName></name>
+                <name><persName>A. A. BERLE</persName>, <placeName>Massachusetts</placeName></name>
+                <name><persName>HERBERT S. BIGELOW</persName>, <placeName>Ohio</placeName></name>
+                <name><persName>SOPHONISBA P. BRECKINRIDGE</persName>,
+                        <placeName>Illinois</placeName>.</name>
+                <name><persName>WILLIAM F. COCHRAN</persName>,
+                    <placeName>Maryland</placeName></name>
+                <name><persName>MAX EASTMAN</persName>, <placeName>New York</placeName></name>
+                <name><persName>JOHN LOVEJOY ELLIOTT</persName>, <placeName>New
+                    York</placeName></name>
+                <name><persName>MRS. GLENDOWER EVANS</persName>,
+                        <placeName>Massachusetts</placeName>
+                </name>
+                <name><persName>ZONA GALE</persName>, <placeName>Wisconsin</placeName></name>
+                <name><persName>JOHN HAYNES HOLMES</persName>, <placeName>New
+                    York</placeName></name>
+                <name><persName>DAVID STARR JORDAN</persName>,
+                    <placeName>California</placeName></name>
+                <name><persName>PAUL U. KELLOGG</persName>, <placeName>New York</placeName></name>
+                <name><persName>AGNES B. LEACH</persName>, <placeName>New York</placeName></name>
+                <name><persName>ALICE LEWISOHN</persName>, <placeName>New York</placeName></name>
+                <name>OWEN R. LOVEJOY, New York </name>
+                <name><persName>FREDERICK LYNCH</persName>, <placeName>New York</placeName></name>
+                <name><persName>JOHN. A. McSPARRAN</persName>,
+                    <placeName>Pennsylvania</placeName></name>
+                <name><persName>JAMES H. MAURER</persName>,
+                    <placeName>Pennsylvania</placeName></name>
+                <name><persName>HENRY R. MUSSEY</persName>, <placeName>New York</placeName></name>
+                <name><persName>SCOTT NEARING</persName>, <placeName>Ohio</placeName></name>
+                <name><persName>NORMAN THOMAS</persName>, <placeName>New York</placeName></name>
+                <name><persName>OSWALD GARRISON VILLARD</persName>, <placeName>New
+                    York</placeName></name>
+                <name><persName>JAMES P. WARBASSE</persName>, <placeName>New York</placeName></name>
+                <name><persName>STEPHEN S. WISE</persName>, <placeName>New York</placeName></name>
+                <roleName>Committee on Constitutional Rights </roleName>
+                <name><persName>AMOS PINCHOT</persName>, <roleName>Chairman</roleName></name>
+                <name><persName>MAX EASTMAN</persName></name>
+                <name><persName>AGNES B. LEACH</persName></name>
+                <name><persName>STEPHEN S. WISE </persName></name>
+                <name><persName>HERBERT S. BIGELOW </persName></name>
+                <name><persName>SCOTT NEARING </persName></name>
+                <name><persName>WM. F. COCHRAN A</persName></name>
+                <milestone unit="shortLine"/>
+                <orgName>AMERICAN LEGAL DEFENSE LEAGUE</orgName>
+                <address><addrLine>261 Broadway, New York</addrLine></address>
+                <name><persName>HARRY WEINBERGER</persName>,
+                <roleName>Counsel</roleName></name></docImprint>
+        </front>
+        <body>
+            <pb facs="03.jppg"/>
+
+            <div type="section">
+                <head>CONSTITUTIONAL RIGHTS IN WAR-TIME </head>
+
+                <p>Constitutional rights are being seriously invaded throughout the United States
+                    under pressure of war. Men are arrested and fined for criticising the Government
+                    or the President. Halls are refused for meetings; meetings are broken up;
+                    pamphlets and literature opposing war are confiscated and the authors haled into
+                    court.</p>
+
+                <p>In short, the guarantees of the Federal Constitution have been suspended at the
+                    dictate of petty officials who would compel conformity on the part of all
+                    citizens to their conception of war policies. </p>
+
+                <p>Such a time is a challenge to all patriots to maintain the liberties guaranteed
+                    by the Constitution.</p>
+
+                <p>In order that full information may be readily accessible to every interested
+                    citizen, the <emph rend="bold">American Union Against Militarism</emph>
+                    publishes these facts. Further information about specific issues can be obtained
+                    by addressing an organization recently formed to protect these rights in
+                    wartime&#8212;the <emph rend="bold">American Legal Defense League,</emph> 261
+                    Broadway, New York City. This League is utilizing committees and organizations
+                    in cities and towns throughout the country to assist it, and is securing the
+                    services of lawyers to handle cases throughout the United States.</p>
+            </div>
+
+            <div type="section">
+                <head>THE ISSUES </head>
+                <p>The practical questions affecting free speech, free press and assembly which
+                    chiefly come up during War-time are these:</p>
+                <list>
+                    <item>1. How far can citizens criticize the conduct of the war, war legislation
+                        and public officials without going beyond their constitutional
+                        rights?</item>
+                    <item>2. How far can they express opposition to war in general, or this war in
+                        particular, and how far can they advocate peace?</item>
+                    <item>3. How far can they express sympathy with the enemy without going beyond
+                        their constitutional rights? </item>
+                    <item>4. Have the police the right to enter private meetings held on private
+                        property? </item>
+                    <item>5. Have they the right to break up orderly public meetings on private
+                        property? </item>
+                    <item>6. Have the police the right to break up meetings held on the streets, or
+                        stop the distribution of literature in public places?</item>
+                    <item>7. Have the police the right to prevent a man from speaking on the ground
+                        that what he proposes to say, judging from announcements in advance, is
+                        treasonable or likely to incite to riot? </item>
+                    <item>8. What authority have prosecuting officials to interfere with meetings,
+                        distribution of literature or public utterances? </item>
+                </list>
+                <p>Harry Weinberger, counsel of the American Legal Defense League, has submitted to
+                    the American Union these answers to the above questions:</p>
+            </div>
+            <div>
+                <head>(1) FREE SPEECH AND FREE PRESS </head>
+                <head type="sub"><emph rend="bold">The Constitution permits citizens to criticize officials, and
+                        war legislation, to oppose war the conduct of the war <fw place="bottom"
+                            type="number">3</fw>
+                        <pb facs="04.jpg"/> and even to express sympathy with the enemy. The
+                        Constitution is not suspended by a declaration of war. </emph></head>
+                <p>The theory of the first amendment of the Constitution is that a citizen may say
+                    anything he pleases, but that he is liable for any injury which his utterances
+                    may cause and may be proceeded against for such injury. Congress may by statute
+                    attempt to define in war-time what are seditious or treasonable utterances, but
+                    the validity of such legislation is extremely doubtful. There are a few legal
+                    points in this connection which need to be made clear. </p>
+
+                <div>
+                    <div>
+                        <head rend="bold">(1) No man can be tried for treason for anything that he
+                            may say or write.</head>
+                        <p>"Treason" is defined in the United States Constitution as consisting only
+                            in (a) "levying war against the United States, or (b) adhering to their
+                            enemies, giving them aid and comfort." <emph rend="bold">No other act
+                                can be declared to constitute the offense. Congress can neither
+                                extend nor restrict nor define the crime.</emph> [ U. S. v.
+                            Greathouse, 26 Fed. Case 18; 26 Fed. Case, 15,254.] </p>
+                    </div>
+                    <div>
+                        <head rend="bold">Levying War</head>
+                        <p>(a) Chief Justice Marshall, in defining "treason " in the trial of Aaron
+                            Burr said:</p>
+                        <p><quote>"It is not enough to be leagued in the conspiracy and that war be
+                                levied, but it is also necessary to perform a part. That part is the
+                                act of levying war." </quote></p>
+                        <p><quote>"A levying of war (or treason) without having recourse to rules of
+                                construction or artificial reasoning, would seem to be nothing short
+                                of the employment, or at least of the embodying of a military force
+                                armed and arrayed in a warlike manner for the purpose of forcibly
+                                subverting the government, dismembering the union, or destroying the
+                                legislative function of Congress. These troops should be so armed
+                                and so directed as to leave no doubt that the United States or their
+                                government were the immediate object of the attack."</quote> [U. S.
+                            v. Hoxie, 26 Fed. Case, 397.]</p>
+                    </div>
+
+                    <div>
+                        <head rend="bold">Aid and Comfort to the Enemy</head>
+
+                        <p>(b) Mere expression of opinion indicative of sympathy with the public
+                            enemy although sufficient to justify a strong feeling of indignation
+                            against the individual and the suspicion that he is at heart a traitor,
+                            are not sufficient under the Constitution and laws of the United States
+                            to warrant a conviction of treason. [In re Charge to Grand Jury, 30 Fed.
+                            Case, No. 18,272.] </p>
+                        <p>The crime of treason is not completed until there is an overt act, it
+                            being not sufficient that there exists a mere conspiracy to over-throw
+                            the government or an intention to commit treason, or treasonable words,
+                            whether oral, written or printed. [U. S. v. Burr, 25 Fed. Case No. 14,
+                            692A. U. S. v. Pryor, 27 Fed. Case, No. 16,096.] </p>
+                    
+                </div>
+
+                <div>
+                    <head type="sub"><emph rend="bold">(2) No utterances can be proceeded against as seditious.
+                        Congress at one time passed what are known as the Alien and Sedition Acts,
+                        which were condemned by public sentiment and repealed.</emph> </head>
+
+                    <p>Story on the Constitution says of the Sedition Law:</p>
+
+                    <p><quote> The Sedition Law declared it a public crime punishable with fine and
+                            imprisonment for any persons unlawfully to combine and <pb facs="05.jpg"
+                            />conspire together with intent to oppose any measure or measures of the
+                            United States, etc. ; or with such intent to counsel, advise or attempt
+                            to procure any insurrection, unlawful assembly or combination; or to
+                            write, print, utter or publish or cause or procure to be written, etc.,
+                            or willingly to assist in writing, etc., any false, scandalous or
+                            malicious writing or writings against the Government of the United
+                            States or either House of Congress or the President with intent to
+                            defame them or to bring them into contempt or disrepute or to excite
+                            against them the hatred of the people or to stir up sedition; or to
+                            excite any unlawful combination for opposing or resisting any law or any
+                            lawful act of the President; or to resist, oppose or defeat any such law
+                            or act; or to aid, encourage or abet any hostile designs of any foreign
+                            nations against the United States. </quote></p>
+
+                    <p><quote>"It provided, however, that the truth of the writing or libel might be
+                            given in evidence; and that the jury who tried the case should have the
+                            right to determine the law and the fact under the direction of the court
+                            as in other cases. </quote></p>
+
+                    <p><quote>"The constitutionality of the Alien and Sedition Acts was assailed
+                            with great earnestness and ability at the time and was defended with
+                            equal masculine vigor. . . . They were impugned as not conformable to
+                            the letter or spirit of the Constitution; and as unconstitutional in
+                            their principles with the rights of citizens and the liberty of the
+                            press. . . . </quote></p>
+
+                    <p><quote>"It was added that the Sedition Act was open to the same objection and
+                            was expressly forbidden by one of the amendments of the Constitution. .
+                            . . </quote></p>
+
+                    <p><quote>"At present it does not seem necessary to present more than this
+                            general outline as the measures are not likely to be renewed and as the
+                            doctrines on which they are maintained and denounced are not materially
+                            different from those which have been already considered. </quote></p>
+
+                    <p><quote>"The Alien and Sedition Acts were beyond all question condemned by
+                            public sentiment. . . The Sedition Act was clearly in the highest degree
+                            impolitic, and as the prosecution showed was susceptible of being used
+                            for the purpose of oppression and terrorism, and these facts afford
+                            reason abundant for its condemnation." </quote></p>
+
+                </div>
+                <div>
+                    <p><emph rend="bold">(3) As a practical matter in war-time the authorities,
+                            federal or local, will be inclined to proceed against men who criticize
+                            the government, who oppose war or express sympathy with the enemy. They
+                            will be sure to find some ground upon which to proceed, even though it
+                            may be under an ordinance governing "disorderly conduct."</emph> All
+                        persons who are opposing, by speech or in print, any act of the government,
+                        or laws which they regard as unjust, should do so by <emph rend="bold"
+                            >advocating legal means of opposition.</emph> To advocate <emph
+                            rend="bold">resistance</emph> to the conscription law would result in
+                        the prosecution of the person who counseled it. But to advocate the repeal
+                        of the conscription law, and to say anything one chooses in advocacy of that
+                        repeal, could not be held illegal. <emph rend="bold">All meetings devoted to
+                            opposition to laws, and all literature issued for that purpose, should
+                            clearly state that they are for the purpose of petitioning the
+                            government to repeal the laws.</emph></p>
+                </div>
+            </div>
+            </div>
+
+<div>
+    <head rend="bold">(2) RIGHT OF ASSEMBLY IN PRIVATE PLACES </head>
+    <head type="sub"><emph rend="bold">The police have no legal right to enter private meetings held on private property, nor to break up orderly public meetings held on private property, nor to confiscate literature or papers without a warrant. </emph></head>
+    
+    <p>The fourth amendment to the Constitution reads: </p>
+    
+    <quote><p>"The right of the people to be secure in their persons, houses, papers, and effects, against unreasonable searches and seizures, shall not be violated, and no warrants shall issue but upon probable cause, supported by oath or affirmation, and particularly describing the place to be searched and the persons or things to be seized." </p></quote>
+    
+    <p>Judge William J. Gaynor of the New York Supreme Court, said [Murphy v. Snitzpan, 15 Misc. (N. V.) 500]: </p>
+    
+   <p><quote>"The police have no right to forcibly interfere with citizens except to arrest them for crime. The contrary has become all too common. The like is not permitted in any free government in the world, except in some of the large cities of this country, and it will not be tolerated there much longer. A citizen has as much right to arrest even a policeman committing a criminal offense as a policeman has to arrest a citizen. To be plain about it, as the citizens do not want to be doing police duty, they hire policemen for that purpose, but do not thereby make them masters nor give them any more right to interfere with individuals than they have themselves."</quote></p>
+    
+    <p>Judge Samuel Seabury, Judge of the Court of Appeals of New York, said [Fairmont Athletic Club v. Bingham, 61 Misc. (N. V.) 419]: </p>
+    
+    <p><quote>"The duty of police officers, like all other public servants, is fixed and defined by law, and when they act contrary to this duty they become wrongdoers and violators of law. It is an essential characteristic of free government that every official is himself subject to the law and that none is above it. . . . </quote></p>
+    
+    <p><quote>"Police officers have no right to enter without a warrant upon private property such as dwellings or club houses because they suspect that misdemeanors are or may be committed therein. . . . It would be difficult to imagine a more odious form of oppression than this so-called right to search private premises to ascertain whether crimes are being committed. Lord Camden declared1 that 'to invade a man's house by virtue of a nameless warrant in order to procure evidence is worse than the Spanish inquisition; a law under which no Englishman would wish to live an hour; it was a most daring public attack made upon the liberty of the subject.' If there is no such law (allowing officers to enter private places) and none has been or can be cited, then, as Lord Camden said, 'the silence of the books is an authority against the defendant.' </quote></p>
+    
+    <p><quote>"At common law the king had no right to enter without warrant the house of his humblest subject on the mere suspicion that the subject had committed or was about to commit a crime.  The 
+    
+    <note type="authorial">1 In Huckle v. Money, 2 Wilson, 205, 207. </note>
+    
+    
+    <fw place="bottom" type="number"> </fw>
+    
+    <pb facs="06.jpg"/>
+    
+    Governor of this State in whom the chief executive power of the people is vested by the Constitution has no such right.</quote></p> 
+    
+    <p><quote>"It seems, however, that in the opinion of these defendants (police officers) the limitations which restrain the actions of kings and governors are but ropes of sand to a New York policeman. They seem to imagine that because they are police officials they are free from all constitutional restraints and have a commission which entitles them to rove at will into the private houses, clubs or places of business of citizens. <emph rend="bold">It cannot be too often reiterated that they have no such right."</emph></quote></p>
+</div>
+            <div>
+                <head rend="bold">(3) RIGHT OF ASSEMBLY IN PUBLIC PLACES </head>
+                <head type="sub"><emph rend="bold">The police have no right to break up meetings held on the street or other public places, or to prevent a man from speaking before he says anything on which to make a charge. The police have not the right to stop the distribution of literature either on the streets or in meetings.</emph> <hi rend="italics">[People v. Samuel W . Simpson, Court of General Sessions, N. Y., Judge Joseph F. Mulqueen, Jan. 5th, 1915; City of Philadelphia v. Brabender, 51 Atl. 374; People v. Armstrong, 73 Mich. 288.]</hi> </head>
+                
+                <div><p>(1) Despite the opinions of the courts and the provisions of the Constitution, the police in many cities do break up public meetings and arrest speakers if they say things the police do not like, or if they are announced to talk on subjects the police and officials regard as "dangerous." </p>
+                
+                    <list><item>1st. Be sure the advertising for the meetings does not contain advocacy of illegal purposes. See that advertising reads for the repeal or enactment of laws; for discussion; or for petitioning the government. </item>
+                
+                <item>2nd. If you wish to be almost certain to avoid police interference, have admission to your meeting, if held on private property, by ticket only, either paid or complimentary. Advertise it as being open to members of the organization "and their friends." The police in most cities will not interfere with meetings of this character. </item>
+                
+                <item>3rd. It is also possible, if the police threaten to stop any meeting, to go into court and obtain an injunction prohibiting them from interfering. In case the police attempt to stop a meeting in advance by notifying the proprietor of the meeting-place not to allow the meeting to be held, or by notifying the speakers they will be arrested if they attempt to speak, a good lawyer should be consulted at once and legal steps taken to prevent police interference.</item> </list></div>
+                
+                <div><p>(2) The right to hold meetings in public places is modified in many cities by ordinances requiring permits to be obtained. Such ordinances are doubtless unconstitutional, but they are, nevertheless, enforced by the police. In many cities meetings are broken up on the ground that they interfere with street traffic. It has been held by many courts that such meetings cannot be interfered with unless they are actually blocking the traffic, and that if a lane is left open for vehicles and pedestrians to pass, the meeting may continue. Local police regulations must determine how and where street meetings can be held. </p></div>
+                <fw place="bottom" type="number">7</fw>
+                
+                <pb facs="07.jpg"/>
+                
+                <div><p>(3) The police have no more legal right to stop the distribution of literature on the street than they have to stop the distribution of newspapers on the street. Some cities have ordinances which forbid the distribution of literature on the streets for the purpose of preventing the streets from being littered. But it has been held by a number of courts that only the person who throws the literature on the street, not the person who hands it to him, can be found guilty under such an ordinance.</p></div>
+                
+                
+            </div>
+            <div>
+                <head rend="bold">(4) INVASIVE ACTS BY PROSECUTING OFFICIALS </head>
+                
+               <p> <emph rend="bold">In addition to interference by the police, the rights of free speech and free press may he invaded by prosecuting officials and district attorneys who in some cases summon persons to appear before them and to produce their records, literature, names of members of an organization, and the like.</emph> In some cases offices are raided and literature and papers taken in charge by federal or local officials. No prosecuting official or district attorney has the right to summon citizens to answer inquiries, or to enter a private office to take papers without warrant. They have no right to question citizens about their activities or utterances until a formal charge has been made in court.</p>
+                   <p>The only way to meet such interference by prosecuting officials is to assert constitutional rights, to decline to give information or give up papers without a warrant, and to consult an attorney at once. </p>
+            </div>
+            
+            <div>
+                <head rend="bold">(5) THE "SPY BILL"</head> 
+                
+                <p>The effect on constitutional rights of the so-called "Spy" or Espionage bill, pending in Congress at the time this pamphlet is being printed, will be considerable. A special statement will be issued later dealing with the provisions of that bill in relation to the statements made in this pamphlet. It seems likely, however, that no provision of the bill will abridge these rights definitely, and that if any provision does, it will be taken at once into the courts. </p>
+                
+               <p> Much will depend on how such war-time legislation is administered. The administration at Washington professes a desire to be liberal, and it is to be hoped that the federal authorities who will enforce the provisions of this act, will not undertake seriously to interfere with established rights. </p>
+            </div>
+            <milestone unit="shortLine"/>
+            <div>
+                <p>Further information on specific issues can be secured by ad-dressing the American Legal Defense League, 261 Broadway, New York City. </p>
+                
+                <p>The organization of the work outside of New York City has been undertaken by the American Union Against Militarism and its local branches and committees. The names of attorneys in other cities than New York will be furnished on application. </p>
+                
+                <p>The American Union will be glad to have the names of responsible lawyers in any city who will volunteer their services in such cases.</p> 
+                <closer>Address<address> 
+                <orgName>AMERICAN UNION AGAINST MILITARISM,</orgName> 
+                <addrLine>New York Office, 70 Fifth Avenue.</addrLine></address></closer>
+            </div>
+            
+        </body>
+    </text>
+
+</TEI>
