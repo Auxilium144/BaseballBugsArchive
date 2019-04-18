@@ -46,19 +46,24 @@
             <sourceDesc>
                 <bibl>
                     <!-- Insert title and date again here -->
-                    <title level="a">Baseball Bugs</title>
-                    
+                    <title level="a">Around the World with the Baseball Bugs.  A Collection of the Best Yarns and Humor of our Great Game</title>
+                    <author>Jack Regan</author>
+                    <author>Will E. Stahl</author>
                     <!-- Make an author or illustrator line for each one mentioned in the piece. -->
-                    <publisher>Westmill</publisher>
-                    <date when="184802">Feburary1848</date>
+                    <publisher>J. Regan &amp; CO.</publisher>
+                    <date>1910</date>
                     <!-- Note that @when allows a regularized form of the date -->
                   
-                    <pubPlace>Lincoln, Nebraska</pubPlace>
+                    <pubPlace>Chicago, Illinois</pubPlace>
+                    <!--
                     <orgName>Westmill</orgName>
+                    -->
                     <note>transcribed from sport collection, Special Collections, University Libraries, University of Nebraska-Lincoln. </note>
                 </bibl>
             </sourceDesc>
         </fileDesc>
+       
+        <!-- This part doesn't pertain to our book I believe
         <encodingDesc>
             <editorialDecl>
                 <p/>
@@ -76,7 +81,8 @@
                 </listPerson>
             </particDesc>
         </profileDesc>
-
+        
+        -->
 
         <!-- This section records whose hands have been in the file. -->
 
@@ -84,6 +90,10 @@
             <change when="20190214">
                 <name>Noah Loos</name>
                 Encoded Header</change>
+            <change when="20190418">
+                <name>Brandon Heinz</name>
+                Put revised header, put in translated text of book
+            </change>
         </revisionDesc>
         
     </teiHeader>
@@ -92,93 +102,34 @@
     <!-- START ENCODING DOCUMENT HERE -->
     <text>
         <front>
-            <pb facs="01.jpg"/>
-            <head>CONSTITUTIONAL RIGHTS IN WAR-TIME</head>
-
-            <epigraph>
-                <quote><title>First Amendment to the Constitution </title> Congress shall make no
-                    law respecting an establishment of religion, or prohibiting the free exercise
-                    thereof; or abridging the freedom of speech, or of the press; or the right of
-                    the people peaceably to assemble, and to petition the Government for a redress
-                    of grievances. </quote>
-            </epigraph>
-
-            <docImprint>PUBLISHED BY <orgName>AMERICAN UNION AGAINST MILITARISM</orgName>
-                <address><addrLine>Munsey Building, Washington, D. C. </addrLine>
-            <addrLine>New York Office 
-            70 Fifth Avenue</addrLine></address>
-                <docDate>May, 1917 </docDate>
-                <figure>
-                    <figDesc>Union bug, Allied Printing Trades Council Washington</figDesc>
-                </figure></docImprint>
-            <pb facs="02.jpg"/>
-
-            <docImprint><orgName>AMERICAN UNION AGAINST MILITARISM</orgName>
-                <roleName>OFFICERS <name><persName>LILLIAN D. WALD</persName></name>,
-                        <roleName>Chairman</roleName>
-                    <name><persName>AMOS PINCHOT</persName></name>,
-                        <roleName>Vice-Chairman</roleName>
-                    <name><persName>L. HOLLINGSWORTH WOOD</persName></name>,
-                        <roleName>Treasurer</roleName>
-                    <name><persName>CRYSTAL EASTMAN</persName></name>,
-                        <roleName>Secretary</roleName>
-                    <name><persName>CHARLES T. HALLINAN</persName></name>, <roleName>Editorial
-                        Director.</roleName>
-                    <name><persName>ROGER N. BALDWIN</persName></name>, <roleName>Field
-                        Secretary</roleName>
-                </roleName>
-                <roleName>EXECUTIVE COMMITTEE</roleName>
-                <name><persName>JANE ADDAMS</persName>, <placeName>Illinois</placeName>
-                </name>
-                <name><persName>EMILY G. BALCH</persName>,
-                    <placeName>Massachusetts</placeName></name>
-                <name><persName>A. A. BERLE</persName>, <placeName>Massachusetts</placeName></name>
-                <name><persName>HERBERT S. BIGELOW</persName>, <placeName>Ohio</placeName></name>
-                <name><persName>SOPHONISBA P. BRECKINRIDGE</persName>,
-                        <placeName>Illinois</placeName>.</name>
-                <name><persName>WILLIAM F. COCHRAN</persName>,
-                    <placeName>Maryland</placeName></name>
-                <name><persName>MAX EASTMAN</persName>, <placeName>New York</placeName></name>
-                <name><persName>JOHN LOVEJOY ELLIOTT</persName>, <placeName>New
-                    York</placeName></name>
-                <name><persName>MRS. GLENDOWER EVANS</persName>,
-                        <placeName>Massachusetts</placeName>
-                </name>
-                <name><persName>ZONA GALE</persName>, <placeName>Wisconsin</placeName></name>
-                <name><persName>JOHN HAYNES HOLMES</persName>, <placeName>New
-                    York</placeName></name>
-                <name><persName>DAVID STARR JORDAN</persName>,
-                    <placeName>California</placeName></name>
-                <name><persName>PAUL U. KELLOGG</persName>, <placeName>New York</placeName></name>
-                <name><persName>AGNES B. LEACH</persName>, <placeName>New York</placeName></name>
-                <name><persName>ALICE LEWISOHN</persName>, <placeName>New York</placeName></name>
-                <name>OWEN R. LOVEJOY, New York </name>
-                <name><persName>FREDERICK LYNCH</persName>, <placeName>New York</placeName></name>
-                <name><persName>JOHN. A. McSPARRAN</persName>,
-                    <placeName>Pennsylvania</placeName></name>
-                <name><persName>JAMES H. MAURER</persName>,
-                    <placeName>Pennsylvania</placeName></name>
-                <name><persName>HENRY R. MUSSEY</persName>, <placeName>New York</placeName></name>
-                <name><persName>SCOTT NEARING</persName>, <placeName>Ohio</placeName></name>
-                <name><persName>NORMAN THOMAS</persName>, <placeName>New York</placeName></name>
-                <name><persName>OSWALD GARRISON VILLARD</persName>, <placeName>New
-                    York</placeName></name>
-                <name><persName>JAMES P. WARBASSE</persName>, <placeName>New York</placeName></name>
-                <name><persName>STEPHEN S. WISE</persName>, <placeName>New York</placeName></name>
-                <roleName>Committee on Constitutional Rights </roleName>
-                <name><persName>AMOS PINCHOT</persName>, <roleName>Chairman</roleName></name>
-                <name><persName>MAX EASTMAN</persName></name>
-                <name><persName>AGNES B. LEACH</persName></name>
-                <name><persName>STEPHEN S. WISE </persName></name>
-                <name><persName>HERBERT S. BIGELOW </persName></name>
-                <name><persName>SCOTT NEARING </persName></name>
-                <name><persName>WM. F. COCHRAN A</persName></name>
-                <milestone unit="shortLine"/>
-                <orgName>AMERICAN LEGAL DEFENSE LEAGUE</orgName>
-                <address><addrLine>261 Broadway, New York</addrLine></address>
-                <name><persName>HARRY WEINBERGER</persName>,
-                <roleName>Counsel</roleName></name></docImprint>
-        </front>
+            <pb facs="OG001.jpg"/>
+            <pb facs="OG003.jpg"/>
+            <pb facs="OG004.jpg"/>
+            <div type="apology">
+                <head>APOLOGY.</head>
+                <milestone unit="line"/>
+                <p>It being now the fashion for our professional 
+                    athletes to either elevate the stage or raise the 
+                    standard of journalism to their own ground and lofty 
+                    standards, the authors of this book have presumed 
+                    to confiscate some of their laurels—aud two-bit 
+                    pieces, if we can get them—just to let the budding 
+                    thespians and embryo journalists realize that they 
+                    must expect legitimate competition in their respect- 
+                    ive lines of endeavor, and we hope that such stars as 
+                    Cristie, Tinker Joe, Muggsy, Jim, the Callahan, Mike, 
+                    and others yet to be heard from now on the diam- 
+                    ond, will not lead us too hard a race in the pursuit of 
+                    the aforementioned two-bits. 
+                    We should not feel that our duty had been ac- 
+                    complished if we overlooked the roped arena, and 
+                    pay our respects also to those doughty warriors who 
+                    are now recognized as members of the pen pushers 
+                    aggregation, viz. : the czar of Hegewisch, Ill., and 
+                    the peerless J. J. J. Now get ready to smile. 
+                    THE AUTHORS. </p>
+            </div>
+            
         <body>
             <pb facs="03.jppg"/>
 
