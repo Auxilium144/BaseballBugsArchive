@@ -67,12 +67,7 @@
     <xsl:template match="p">
         
         <xsl:apply-templates/>
-        <br/>
-        <br/>
-        <br/>
-        <p>We've added in another paragraph here because I wanted to.</p>
-        <br/>
-        <br/>        
+    
     </xsl:template>
     
     <xsl:template match="lg">
@@ -85,7 +80,7 @@
     
     <xsl:template match="milestone">
         <xsl:choose>
-            <xsl:when test="contains(@unit, 'flourish')">
+            <xsl:when test="contains(@unit, 'line')">
                 <br/>
                 <img src="shun.gif"/>
                 <br/>
@@ -122,7 +117,7 @@
         <!-- This is a way to do dynamic output elements -->
         <xsl:element name="img">
             <xsl:attribute name="src">
-                <xsl:value-of select="@facs"/>
+                <xsl:value-of select="concat('full/',@facs)"/>
             </xsl:attribute>
             <xsl:attribute name="width">
                 <xsl:value-of select="'300'"/>
@@ -131,6 +126,12 @@
     </xsl:template>
     <!--  -->
     
+    <xsl:template match="note[@type='editorial']">
+        <span class="ednote">&#10086;
+        <span class="ednotetext">
+            <xsl:apply-templates/>
+        </span></span>
+    </xsl:template>
     
     
     

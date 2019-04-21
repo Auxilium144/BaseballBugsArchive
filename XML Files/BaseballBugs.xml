@@ -201,9 +201,9 @@
                 <milestone unit="line"/>
             </div>
             <div type="comic">
-                <head>Some Warm Muffs.</head>
-                <figure>
-                <graphic url="OG009.jpg"/>
+                
+                <figure facs="OG009.jpg">
+                    <head>Some Warm Muffs.</head>
                 </figure>
                 <p>WIFEY—"Henry, is it cold out at the baseball grounds 
                     these days? " 
@@ -248,8 +248,7 @@
             </div>
             <div type="comic">
                 <pb n="11"/>
-                <figure>
-                <graphic url="OG011.jpg"/>
+                <figure facs="OG011.jpg">
                 </figure>
             </div>
             <div type="poem">
@@ -347,9 +346,9 @@
                     ering pennants, he have to work nights." </p>
             </div>
             <div type="comic">
-                <head>Reminiscences.</head>
-                <figure>
-                <graphic url="OG015.jpg"/>
+                
+                <figure facs="OG015.jpg">
+                    <head>Reminiscences.</head>
                 </figure>
                 <p>FIRST PARROT BUG—"Where did you cop out all that 
                     bad language?"
@@ -358,10 +357,8 @@
             </div>
             <div type="comic">
                 <pb n="16"/>
-                <head>To the Ball Grounds or Bust.</head>
-                
-                <figure>
-                <graphic url="OG016.jpg"/>
+                <figure facs="OG016.jpg">
+                    <head>To the Ball Grounds or Bust.</head>
                 </figure>
                 <p>Hooligan— "Oi do be wondherin' how th' number 
                     av min in church compare wid thi wimmin?" 
@@ -484,16 +481,18 @@
             </div>
             <div type="comic">
                 <pb n="21"/>
-                <head>The Beginning of our Trouble</head>
-                <figure>
-                    <graphic url="OG021.jpg"/>
-                    <p>Gimme a quick shave
-                        Right here Sir Yessir</p>
+                
+                <figure facs="OG021.jpg">
+                    <head>The Beginning of our Trouble</head>
+                    <caption>Gimme a quick shave
+                        Right here Sir Yessir</caption>
                     
                 </figure>
+                <figure facs="OG021.jpg">
                 <head>A Wet Finish</head>
-                <p>Now if the Tigers lose two and New York two and- well
-                    SAY DO I GET A SHAVE SAY</p>
+                <caption>Now if the Tigers lose two and New York two and- well
+                    SAY DO I GET A SHAVE SAY</caption>
+                </figure>
             </div>
             <div type="section">
                 <pb n="22"/>
@@ -529,13 +528,13 @@
             </div>
             <div type="comic">
                 <pb n="23"/>
+                
+                <figure facs="OG023.jpg">
                 <head>Reading the Dope on the way to the Grounds.</head>
-                <figure>
-                    <graphic url="OG023.jpg"/>
                 </figure>
-                <p>"I teach my parrot only short words." 
+                <caption>"I teach my parrot only short words." 
                     "Do you? Now, I should think that parrots were 
-                    better adapted to learning polysyllables."</p>
+                    better adapted to learning polysyllables."</caption>
             </div>
             <div type="section">
                 <pb n="24"/>
@@ -574,13 +573,14 @@
             </div>
             <div type="comic">
                 <pb n="25"/>
-                <head>Back from the Grounds.  Favorite Losers.</head>
-                <figure>
-                    <graphic url="OG025.jpg"/>
+                
+                <figure facs="OG025.jpg">
+                    <head>Back from the Grounds.  Favorite Losers.</head>
+                    <caption>"Algy, why does the catcher wear that muzzle?" 
+                        "To prevent him from biting the batsman my 
+                        dear."</caption>
                 </figure>
-                <p>"Algy, why does the catcher wear that muzzle?" 
-                    "To prevent him from biting the batsman my 
-                    dear."</p>
+                
             </div>
             <div type="section">
                 <pb n="26"/>
@@ -673,14 +673,15 @@
             </div>
             <div type="comic">
                 <pb n="29"/>
-                <head>The Home Plate.</head>
-                <figure>
-                    <graphic url="OG029.jpg"/>
+                
+                <figure facs="OG029.jpg">
+                    <head>The Home Plate.</head>
+                    <caption>Mrs. Black-"Yo' husband doan' take no intrest in
+                        baseball, do he, Mrs. Brown? Now my husband am always 
+                        talkin' about the home plates."
+                        Mrs. Brown-"Huh! De on'y plate ma husban' talks of am de dinner plate."</caption>
                 </figure>
-                <p>Mrs. Black-"Yo' husband doan' take no intrest in
-                    baseball, do he, Mrs. Brown? Now my husband am always 
-                    talkin' about the home plates."
-                    Mrs. Brown-"Huh! De on'y plate ma husban' talks of am de dinner plate."</p>
+                
                 <milestone unit="line"/>
             </div>
             <div type="section">
@@ -721,14 +722,15 @@
             </div>
             <div type="comic">
                 <pb n="31"/>
-                <head>Imitation of an Orator Reciting "Casey at the Bat."</head>
-                <figure>
-                    <graphic url="OG031.jpg"/>
+                
+                <figure facs="OG031.jpg">
+                    <head>Imitation of an Orator Reciting "Casey at the Bat."</head>
+                    <caption>De Style-"Was that a drinking-song the sop-
+                        rano just sang?"
+                        Gunbusta-"Why, no. What makes you ask that?"
+                        De style- There were so many high bawls in it."</caption>
                 </figure>
-                <p>De Style-"Was that a drinking-song the sop-
-                    rano just sang?"
-                    Gunbusta-"Why, no. What makes you ask that?"
-                    De style- There were so many high bawls in it."</p>
+                
             </div>
             <div type="poem">
                 <pb n="32"/>
@@ -827,15 +829,14 @@
             </div>
             <div type="comic">
                 <pb n="35"/>
-                <figure>
-                    <graphic url="OG035.jpg"/>
-                    <p>WINKs-"There goes a man whose  
+                <figure facs="OG087.jpg">
+                    <caption>WINKs-"There goes a man whose  
                         inventive genius has been a boon to  
                         base ballists." 
                         BINKS—Invented a new rule, eh?"
                         WINKS-"Oh, no! He invented a  
                         cuss word to fit any angle that may 
-                        arise in the game."</p>
+                        arise in the game."</caption>
                 </figure>
             </div>
             <div type="section">
@@ -1010,13 +1011,12 @@
             </div>
             <div type="comic">
                 <pb n="41"/>
-                <figure>
+                <figure facs="OG041.jpg">
                 <head>A Proud Fan exhibiting his Cub.</head>
-                <graphic url="OG041.jpg"/>
-                    <p>"He was very unpopular before the last ball 
+                    <caption>"He was very unpopular before the last ball 
                         game, but after he had three runs and won tlv 
                         game he had many friends.' 
-                        "Ah! I suppose he made friends by the score."</p>
+                        "Ah! I suppose he made friends by the score."</caption>
                 </figure>
             </div>
             <div type="section">
@@ -1078,10 +1078,9 @@
             </div>
             <div type="comic">
                 <pb n="44"/>
-                <figure>
+                <figure facs="OG044.jpg">
                     <head>What did we do to that Pennant?</head>
-                    <graphic url="OG044.jpg"/>
-                    <p>Oh! What a headache!</p>
+                    <caption>Oh! What a headache!</caption>
                 </figure>
             </div>
             <div type="section ">
@@ -1282,9 +1281,8 @@
             </div>
             <div type="comic">
                 <pb n="51"/>
-                <figure>
-                    <graphic url="OG051.jpg"/>
-                    <p>"I Will."--Apologies to Miss Chicago.</p>
+                <figure facs="OG051.jpg">
+                    <caption>"I Will."--Apologies to Miss Chicago.</caption>
                 </figure>
             </div>
             <div type="poem">
@@ -1382,13 +1380,13 @@
             </div>
             <div type="comic">
                 <pb n="55"/>
-                <figure>
+                <figure facs="OG055.jpg">
                     <head>Idle thoughts of the Season's end.</head>
-                    <graphic url="OG055.jpg"/>                    
                 </figure>
             </div>
             <div type="section">
                 <head>A Vain Hope.</head>
+                                
                 <p>A ball player who be- 
                     tween times defends di-
                     vorce suits, had a finger 
@@ -1528,60 +1526,915 @@
                     out how he does it we can run this paper for an- 
                     other week."</p>
             </div>
-            
-                
-
-                
-                
-                
-                
-                
-                
-                <pb n="56"/>
-                <pb n="57"/>
-                
-                
-                
+            <div type="comic">
                 <pb n="61"/>
+                <figure facs="OG061.jpg">
+                    <caption>"Rachael, if you only gif me a ten cent sheck, you
+                        can go mit me to de Ball game."</caption>
+                </figure>
+            </div>
+            <div type="section">
                 <pb n="62"/>
+                <p>"So you are going to make up a baseball team 
+                    among the prisoners?"  Aren't you afraid that it 
+                    will be likely to make them too free and easy and
+                    ruin discipline?" 
+                    "Oh, no," replied the warden, confidently.  "If 
+                    any one of them becomes too fresh, I intend to 
+                    make him umpire."</p>
+                <milestone unit="line"/>
+            </div>
+            <div type="section">
+                <p>"Yonder he goes with his attendant and his 
+                    physician. These ball players have to be very 
+                    careful, you know." 
+                    "Is that fellow a ball player? I recognize him. 
+                    He worked in a local stone yard all winter."</p>
+                <milestone unit="line"/>
+            </div>
+            <div type="section">
+                <p>"I should think that, with your husband away at 
+                    his studio nearly all of his time, you would worry a 
+                    great deal about him." 
+                    "Oh, no; he always lets me know just before he
+                    is coming home."</p>
+                <milestone unit="line"/>
+            </div>
+            <div type="section">
+                <p>"The boss called me in consultation to-day," de- 
+                    clared the office boy.
+                    "G'wan!" 
+                    "Fact.  He had a dispute with the junior partner 
+                    as to who wuz leadin' the league just now in battin.'"</p>
+            </div>
+            <div type="poem">
                 <pb n="63"/>
+                <head>Get on to the Phenom.</head>
+                <p>Young Lochinvar came out of the brush, 
+                    He came with a yell, he came with a rush; 
+                    He'd a "curve like a pretzel," and '"marvelous 
+                    speed," 
+                    "A perfect control"—he was "up in tile lead." 
+                    He "batted .300;" he "lined 'em out far"-- 
+                    Oh, he was some player, was young Lochinvar,
+                    
+                    In pratice he made the big leaguers fan air, 
+                    In batting and fielding he surely was there. 
+                    His name in the papers appeared every day, 
+                    And the fans almost wept when we farmed him 
+                    away, 
+                    That was only last year—now Lochinvar 
+                    Is a motorman on a surface line car. 
+                    But so long as in players there transfers and 
+                    sales,
+                    The annual crop of "phenoms" never fails.
+                    </p>
+                <milestone unit="line"/>
+            </div>
+            <div type="section">
+                <p>Louey--"Heine, do der blayers on a ball team 
+                    keep flies as souvenirs?" 
+                    Heine--"Vot?"
+                    Louey--"Vell, I vos reading dot during der Cubs'
+                    practice one of der boys spent most of his time
+                    wrapping up flies vor der blayers."</p>
+            </div>
+            <div type="section">
                 <pb n="64"/>
+                <p>An anxious inquirer asks if flies are caught on the 
+                    ball field, and if so, for what purpose.
+                    No, Celestine! they are batted and very often are
+                    muffed.</p>
+                <milestone unit="line"/>
+            </div>
+            <div type="section">
+                <p>Has your business been good this year?" 
+                    "Fine." 
+                    "Mine has been rotten. How do you account for 
+                    the difference?" 
+                    Olv do you account for 
+                    "I've minded my own."</p>
+                <milestone unit="line"/>
+            </div>
+            <div type="section">
+                <p>Briareus was embarrassed. 
+                    "I don't know what to do with my hands," he 
+                    muttered, 
+                    Later, however, he found that as catcher in a 
+                    baseball game he could use all of them.</p>
+                <milestone unit="line"/>
+            </div>
+            <div type="section">
+                <p>A few days after a farmer had sold a pig to a 
+                    neighbor he chanced to pass the neighbor's place, 
+                    where he saw their little boy sitting on the edge of 
+                    the pigpen watching its new occupant. 
+                    "How d'ye do, Johnny," said he; "how's your pig 
+                    today?" 
+                    "Oh, pretty well, thank you," replied the boy. 
+                    "How's all your folks?"</p>
+                
+            </div>
+            <div type="section">
                 <pb n="65"/>
+                <p>A Magazine devoted to outdoor sports is publish- 
+                    ing a list and printing the photographs of famous 
+                    ball playets, under the caption of "Who's who on 
+                    the ball field?" We should say it is the umpire.</p>
+                <milestone unit="line"/>
+            </div>
+            <div type="comic">
+                <figure facs="OG065.jpg">
+                    <caption>"Shay Mike! What became of that ball?" 
+                        "Be gobs, sir, ye must have it in yer stomach."</caption>
+                </figure>
+                <milestone unit="line"/>
+            </div>
+            <div type="section">
+                <p>"I saw you in your automobile," said the phy-
+                    sican.  "You'll have to take more exercise."
+                    "Great Scott, doctor! When I get through crank-
+                    ing that car I can't stand any more exercise."</p>
+            </div>
+            <div type="poem">
                 <pb n="66"/>
+                <head>And we Played Ball.</head>
+                <p>Once more throughout the land resounds
+                    A bunch of sweet, familiar sounds, 
+                    As though without the last excuse
+                    The college children had broke loose. 
+                    The racket is not that at all;
+                    It's just the ancient cry,
+                    Play ball! 
+                    
+                    When winter quits us on a strike 
+                    And gentle spring comes down the pike, 
+                    Then something stirs the youthful breast 
+                    Beneath its soiled, but manly vest. 
+                    That something is the earnest call 
+                    From every husky throat, 
+                    Play ball!</p>
+                <milestone unit="line"/>
+            </div>
+            <div type="section">
+                <head>Why is it "Bugs?"</head>
+                <p>Bugs Raymond had been promised $1,000 for 
+                    keeping on the water wagon. 
+                    If Mr. Raymond hadn't acquired the nickname of 
+                    "Bugs" would any astute manager offer him $1,000 
+                    for keeping on the water wagon?</p>
+                <milestone unit="line"/>
+            </div>
+            <div type="section">
+                <p>As ve churney tro' life, let us choke by the vay.</p>
+            </div>
+            <div type="section">
                 <pb n="67"/>
+                <p>When a wrestling promoter accuses a handbook 
+                    maker of trying to bunko him.  What are we com- 
+                    ing to?</p>
+                <milestone unit="line"/>
+            </div>
+            <div type="section">
+                <p>The leagues in the future will have to drop their 
+                    distinctive names of "sox," now that the ladies have 
+                    entered the game for keeps. Some gay guy who 
+                    wants to get into trouble might ask them what color 
+                    stockings they wear.</p>
+                <milestone unit="line"/>
+            </div>
+            <div type="section">
+                <p>"Say, pop, what do they call the man in the ball 
+                    game that always gets put out?" 
+                    "Doc Cook."</p>
+                <milestone unit="line"/>
+            </div>
+            <div type="poem">
+                <p>No; it was not a railroad wreck 
+                    That made him wabble lame. 
+                    He got that way the very day 
+                    He practiced for a game.</p>
+                <milestone unit="line"/>
+            </div>
+            <div type="section">
+                <p>"You trust promoters are blamed for everything 
+                    that goes wrong." 
+                    "Yes," replied Dustin Stax, "but that can't last. 
+                    The baseball umpire will soon be along to take
+                    some of the blame."</p>
+                <milestone unit="line"/>
+            </div>
+            <div type="section">
+                <p>During the busy baseball season don't overlook
+                    The humble fishball
+                    Selah!</p>
+            </div>
+            <div type="comic">
                 <pb n="68"/>
+                <figure facs="OG068.jpg">
+                    <head>The day after the Bleacher experience.</head>
+                </figure>
+            </div>
+            <div type="section">
+                <p>Curious Charlie—Do nuts grow on trees, father? 
+                    "They do my son."
+                    Curious Charlie—Then what tree does the dough- 
+                    nut grow on? 
+                    The pantry, my son."</p>
+                <milestone unit="line"/>
+            </div>
+            <div type="section">
+                <p>"How did you enjoy your vacation?" 
+                    "Fine! It made a new man of me!" 
+                    "I congratulate your wife."</p>
+                <milestone unit="line"/>
+            </div>
+            <div type="section">
+                <p>There's a strike in the course of the game, which, 
+                    caught on the fly, means the loss of the same.</p>
+            </div>
+            <div type="poem">
                 <pb n="69"/>
+                <head>Ode to the Slugger.</head>
+                <p>Who is it that wins all the praise, 
+                    Receives the burden of the day's
+                    Applause? And has a friend who pays
+                    For whate'er roughhouse he may raise?
+                    THE SLUGGER.
+                    Who makes us howl with ecstasy, 
+                    Who makes us yowl with fervent glee, 
+                    Who gets a hand each time that he 
+                    Strides to the plate with motion free? 
+                    THE SLUGGER. 
+                    Who is it that with score a tie, 
+                    With bases full and feeling high, 
+                    Can let a perfect strike go by 
+                    And not expect at once to die? 
+                    THE SLUGGER. 
+                    Ball Players the people all adore 
+                    And heroes who have gone before: 
+                    All sorts of bigwigs, by the score. 
+                    But there is one whom they love more, 
+                    THE SLUGGER.</p>
+                <milestone unit="line"/>
+            </div>
+            <div type="section">
+                <p>The golden rule. When in doubt, blackguard
+                    the umpire.</p>
+            </div>
+            <div type="comic">
                 <pb n="70"/>
+                <figure facs="OG087.jpg">
+                </figure>
+            </div>
+            <div type="section">
+                <p>Roadworthy Rup-
+                    ert--"Say, lady, hev
+                    ye got any o' yer
+                    husband's ole vests
+                    layin' aroun'?"
+                    Housewife--"Yes;
+                    but my husband's vests won't fit you.
+                    He's too fat."
+                    Roadworth Rup-
+                    ert--"That's all right,
+                    lady.  I'm willin' to
+                    board here till I fit 'em."</p>
+                <milestone unit="line"/>
+            </div>
+            <div type="section">
+                <head>This would cut out the slang</head>
+                <p>If oral betting is stopped throughout the country, 
+                    why cannot the newspapers of the land organize a 
+                    correspondence school for the teaching of the sign 
+                    language? It would be more useful than Volapuk, 
+                    as fans in different parts of the bleachers, could 
+                    carry on an animated conversation, and should the 
+                    ump, understand it, he could not fail to recognize 
+                    his standing with those on the bleachers whenever 
+                    he gave an unpopular decision, Besides, see how 
+                    noiseless and devoid of ruffianism it would be.</p>
+            </div>
+            <div type="comic">
                 <pb n="71"/>
+                <figure facs="OG071.jpg">
+                    <caption>Gentlemanly Magnate who acquires easy money.</caption>
+                </figure>
+            </div>
+            <div type="section">
                 <pb n="72"/>
+                <head>Training Note.</head>
+                <p>Mr. Athletic across at ten yesterday morning, ate 
+                    a steak with French fried potatoes and a portion of 
+                    plum pudding, and devoted the forenoon to correct- 
+                    ing the proofs of his autobiography.</p>
+                <milestone unit="line"/>
+            </div>
+            <div type="poem">
+                <head>A game old Sport.</head>
+                <p>"Come with me and let us see some high class acting," 
+                    Was his plea unto the maiden whom he wooed. 
+                    "I'm the fellow who is always benefacting, 
+                    I'm a live one, honest, Molly, I'm a dude. 
+                    "Come with me and watch the players lightly 
+                    tripping,
+                    We will sit there just as though we owned the 
+                    place;
+                    I'm the man who always starts good times a-ripp- 
+                    ing,
+                    You'll be smiling on each corner of your face."
+                    "Sure I'll go," the maiden told him without par-
+                    ley,
+                    "I'm just dying for the chance, you dear old
+                    beau;
+                    So the next night out she went iwht noisey Charley,
+                    And he took er to a moving picture show.</p>
+            </div>
+            <div type="section">
                 <pb n="73"/>
+                <p>"Why does the umpire call on that fellow to 
+                    strike?"
+                    "Probably he used to be a walking deligate."</p>
+            </div>
+            <div type="comic">
+                <figure facs="OG073.jpg">
+                    <caption>Robber, Thief.  What do you know about that?</caption>
+                    <figDesc></figDesc>
+                </figure>
+                <milestone unit="line"/>
+            </div>
+            <div type="section">
+                <p>"Johnny, what are you going to do when you
+                    grow up?"
+                    "I'm goin' ter run away an' be a pirate." 
+                    "Like Capt. Kidd?" 
+                    "Shucks, naw!  I'm going ter play wit' Pittsburg." </p>
+            </div>
+            <div type="poem">
                 <pb n="74"/>
+                <head>When Mooney stings the ball.</head>
+                <p>When Murphy bunts, and gets to first, 
+                    We cheer his feat with pride; 
+                    The ball twists slowly down the line, 
+                    And never rolls outside. 
+                    When Casey makes a sacrifice, 
+                    His deftness moves us all, 
+                    But, Oh, the real hi-hi-ing comes 
+                    When Mooney stings the ball!
+                    ***Stanza 
+                    For Mooney has a nervous way
+                    Of handling his bat.
+                    The pitchers hate to watch his eyes; 
+                    They don't know where they are at. 
+                    He stands there ready with the stick 
+                    Upon the sphere to fall. 
+                    And, oh, the crowd lets out a yell 
+                    When Mooney stings the ball! 
+                    ***Stanza
+                    Yes, Mooney was designed by fate 
+                    To make the pitchers mourn. 
+                    The foxy inshoots and the wides 
+                    He lets pass by with scorn. 
+                    He stands regardless of the crowd, 
+                    The strikes, the umpire's call, 
+                    Until the sphere floats o'er the plate— 
+                    Then Mooney stings the ball!</p>
                 <pb n="75"/>
-                <pb n="76"/>
+                <p>It moves us when the center field 
+                    Pulls fdown the fly he's cursed,
+                    It thrills us when the shortstop's throw 
+                    Cuts off a man at first, 
+                    But, oh, the fierce excitemet when, 
+                    The bases filled, we all 
+                    Leap up and howl, and dance, and yell, 
+                    When Mooney stings the ball!</p>
+                <milestone unit="line"/>
+            </div>
+            <div type="section">
+                <p>As the season draws near for baseball, little
+                    Hank, who in ordinary times is looked upon as a boy 
+                    with a great deal of truth and uprightness in his 
+                    make up, seeks a secluded corner somewhere to 
+                    look over the news of the times relating to his 
+                    favorite game, and there decides that on the day of 
+                    the opening of the season's games, some well be- 
+                    loved member of his family must give up the ghost. 
+                    Hank is in a quandary to know whether it shall be 
+                    Grandma, Uncle, Granpa, Aunt, Papa or mamma, but 
+                    finally decides to cinch the argument, that he will
+                    make himself a half orphan that day by telling
+                    teacher, that papa died.  Result; Hank sees game.</p>
+                <milestone unit="line"/>
+            </div>
+            <div type="section">
+                <p>Don't kick on a rain check, perhaps it's the only 
+                    negotiable check you'll ever get.</p>
+            </div>
+            <div type="comic">
+                <figure facs="OG076.jpg">
+                    <pb n="76"/>
+                    <head>Meet me at the Gate.</head>
+                </figure>
+            </div>
+            <div type="section">
+                <p>Are you with us for a Colt or Ball bearing day to 
+                    be made a National holiday? Kling to this sugges- 
+                    on Overall others, and don't Tinker with it or take 
+                    any Chance of having it done Brown.</p>
+                <milestone unit="line"/>
+            </div>
+            <div type="section">
+                <p>An European beauty doctor promises to remove 
+                    human skins in twelve weeks. Too slow, doc. We 
+                    of the ball microbe are skinned here in a fraction of 
+                    afternoon. </p>
+            </div>
+            <div type="section">
                 <pb n="77"/>
+                <head>How could he expect to Escape?</head>
+                <p>A now well-known twirler once drifted down into
+                    Arkansaw in search of material for his team.  He
+                    was roughing it, and his appearance was not calcula- 
+                    ted to inspire the local landlords with confidence. 
+                    In one town he was shown to a room on the second 
+                    floor, reached through a number of winding pass- 
+                    ages, From the one window it was a drop
+                    to the ground.  "Say, how could I get out of this 
+                    place in case of fire?" he asked the landlord, who 
+                    had brought up his grip.  The landlord eyed him 
+                    coldly.  "Wall," he drawled, "all you would hev to 
+                    do would be to show ther night watchman--the one
+                    with ther shotgun—a receipted bill fo' yo' board an' 
+                    lodgin'an'get him ter tie up ther bulldorg."</p>
+                <milestone unit="line"/>
+            </div>
+            <div type="section">
+                <head>Papa's great head.</head>
+                <p>"John." said Mrs. Bugg in great distress, "I be-
+                    lieve baby's left-handed.  I have noticed several
+                    times lately that he is inclined to reach for his bottle
+                    with his left hand.  What shall we do?"
+                    "Let him alone, dear.  Who knows?  He may
+                    make us both famous by developing into a mighty
+                    southpaw flinger."</p>
+            </div>
+            <div type="section">
                 <pb n="78"/>
+                <head>Breakfast Menu, for Fans.</head>
+                <p>			Highball.
+                    Codfish balls.                          Potato balls
+                    Fowl.                                Clubhouse steak.
+                    Goose eggs.          Batter cakes.      Pitcher milk
+                    Cigarooters.</p>
+                <milestone unit="line"/>
+            </div>
+            <div type="section">
+                <head>A Delicate Proposition.</head>
+                <p>The manager of an asbestos mill in the west con- 
+                    ceived a novel idea for New Year's announcements. 
+                    He had them printed on thin asbestos and inclosed 
+                    in envelopes of the same material. As he was un- 
+                    certain of the correct addresses of some of the 
+                    stockholders he ordered his stenographer to write 
+                    on each envelope "Please forward." 
+                    The idea was clever, but one may appreciate the 
+                    feelings of the widow of one of the stockholders 
+                    when she received an asbestos envelope addressed 
+                    to her late husband, with the inscription "Please 
+                    forward" beneath the address.</p>
+                <milestone unit="line"/>
+            </div>
+            <div type="section">
+                <p>"Have you ever had to hide from reporters?" 
+                    "No. I am not, as you know, a ball player's 
+                    wife, and I have never been mixed up in a divorce 
+                    case."</p>
+            </div>
+            <div type="comic">
                 <pb n="79"/>
+                <figure facs="OG079.jpg">
+                    <head>A Fan Philosopher.</head>
+                    <caption>It helps no hard luck tale, I vouch, 
+                        Rehearsing it; 
+                        And no one ever cures a grouch 
+                        By nursing it.</caption>
+                </figure>
+                <milestone unit="line"/>
+            </div>
+            <div type="section">
+                <p>"Oh, they have their uses." 
+                    "What have?"
+                    "These barefoot dancers. Since they came in lots
+                    of people are beginning to understand art."</p>
+            </div>
+            <div type="section">
                 <pb n="80"/>
+                <p>Let politics sit in the rear of the hall,
+                    Give business the same skimpy show
+                    And turn your lungs loose on the password,
+                    "Play ball!"
+                    When the day has arrivied! Let 'er go!</p>
+                <milestone unit="line"/>
+            </div>
+            <div type="section">
+                <head>She Returned at once.</head>
+                <p>Mrs. Johnston had gone away from home, leav-
+                    ing Mr. Johnston disconsolate. On arriving at her
+                    destination she missed her gold lace pin and wrote
+                    her servant, asking the girl to let her know if she 
+                    had found anything on the dining room floor. 
+                    The servant wrote as follows: "When sweeping 
+                    the dining room floor this morning I found seventy 
+                    matches, four corks, a pack of cards and some red
+                    white a blue things that look like small crackers.</p>
+                <milestone unit="line"/>
+            </div>
+            <div type="section">
+                <p>Is there anything more ephemeral than the heart 
+                    throbs of a real fan?</p>
+                <milestone unit="line"/>
+            </div>
+            <div type="section">
+                <p>Some meandering goat, mayhap, ate the pennant
+                    the Skyville team so gloriously won last season.</p>
+                <milestone unit="line"/>
+            </div>
+            <div type="section">
+                <p>Games may come and games may go, but bowl-
+                    ing is perennial.  It is the greatest game in the 
+                    world--for inspiring a thirst.</p>
+            </div>
+            <div type="comic">
                 <pb n="81"/>
+                <figure facs="OG081.jpg">
+                    <caption>He was Struck out.</caption>
+                </figure>
+            </div>
+            <div type="section">
                 <pb n="82"/>
+                <p>Quiz--"Why do you run your car so slow these 
+                    days?"
+                    Bizz--"With everybody carrying home baseball
+                    articles, you can't run over a man without riding a
+                    puncture from spikes."</p>
+                <milestone unit="line"/>
+            </div>
+            <div type="section">
+                <p>The form of human sympathy that goes out to one
+                    who loses on overplayed four flushes is a sardonic
+                    chuckle.</p>
+                <milestone unit="line"/>
+            </div>
+            <div type="section">
+                <p>"We had an African explorer at the club last 
+                    evening. He talked of progressive Abyssinia." 
+                    "Sounds interesting. How do you play it?"</p>
+                <milestone unit="line"/>
+            </div>
+            <div type="section">
+                <p>Among the other delights of the busy baseball 
+                    season, is a cessation of novel-writing by the stars 
+                    of the diamond.</p>
+                <milestone unit="line"/>
+            </div>
+            <div type="section">
+                <p>A student at a technical school in Boston, who 
+                    had too frequently asked leave of abscence, offered
+                    on one occasion as a reason for attending the ball 
+                    game, the necessity of going to the funeral of his
+                    cousin.
+                    "Well," said the doubting instructor, "I suppose
+                    I must let you go, but I do wish it were a nearer 
+                    relative."</p>
+            </div>
+            <div type="comic">
                 <pb n="83"/>
+                <figure facs="OG083.jpg">
+                    <head>Dreaming of Home--Plates.</head>
+                    <caption>"Call me early in the morning, 
+                        Call me early, mother, dear; 
+                        I want to see our team win out, 
+                        And hear old Buggville cheer."</caption>
+                </figure>
+                <milestone unit="line"/>
+            </div>
+            <div type="section">
+                <p>"Never make a fuss about what you can't help," 
+                    said the homely philosopher. 
+                    "Nonsense," replied the fan.  "That idea would 
+                    take half the excitement out of a baseball game."</p>
+            </div>
+            <div type="section">
                 <pb n="84"/>
+                <head>He showed his ignorance.</head>
+                <p>Freshley--"In the class this morning the professor 
+                    of English literature said something about Beau- 
+                    mont and Fletcher.  I know who Beaumont is, of 
+                    course; he's the new outfielder for the Cubs.  But 
+                    who the Sam Hill is Fletcher?" 
+                    The other bug—"Why, you bonehead, he's the 
+                    guy that says you must chew your victuals 136 times 
+                    before you swallow them."</p>
+                <milestone unit="line"/>
+            </div>
+            <div type="section">
+                <p>"Some men's idea of heaven," said Uncle Jerry 
+                    Peebles, "is an everlastin' ball game, with the home 
+                    team forever winnin'."</p>
+                <milestone unit="line"/>
+            </div>
+            <div type="section">
+                <p>DeRooter--"I saw something in one of the papers 
+                    the other day about a fellow they called the 'Admi- 
+                    rable Crichton.'  Who was he?"
+                    DeHowler--"Well, as nearly as I can make out,
+                    he was the Artie Hoffman of the sixteenth century."</p>
+                <milestone unit="line"/>
+            </div>
+            <div type="section">
+                <p>"When you make a trip abroad you have to go, I
+                    suppose, either as a tipper or a kicker."
+                    "Huh! I always go as both.  The more I tip the
+                    harder I kick."</p>
+            </div>
+            <div type="comic">
                 <pb n="85"/>
+                <figure facs="OG085.jpg">
+                    <head>Strike! One.</head>
+                </figure>
+            </div>
+            <div type="section">
+                <p>Existence is like a ball game, for when we come 
+                    to figure it out we get these results. It's a scramble 
+                    for a look-in, and when in a scrap to hold our own. 
+                    We have a grouch against the other side which can 
+                    only be wiped out by their gore.  Should a decision 
+                    be rendered against us, all opponents are wolves and 
+                    should not have a license to breathe.  If things are 
+                    rosy, we'congratulate ourselves on the knowledge 
+                    we think we possess.</p>
+            </div>
+            <div type="section">
                 <pb n="86"/>
+                <head>They are all GOING to lift it.</head>
+                <p>When the baseball season opens, the uninitiated 
+                    mortal who takes pleasure in looking over the pub- 
+                    licity colums dubbed "sporting editions," at the 
+                    beginning of the season's games, would imagine 
+                    there was a pennant for each club.</p>
+                <milestone unit="line"/>
+            </div>
+            <div type="section">
+                <p>Harold (at the races)—"The favorite won't run 
+                    to-day. He's been scratched." 
+                    Loraine—"Must be a pretty bad scratch to keep 
+                    him from running."</p>
+                <milestone unit="line"/>
+            </div>
+            <div type="section">
+                <p>It is at the opening of the baseball season that 
+                    the boy is especially glad he is not a girl.</p>
+                <milestone unit="line"/>
+            </div>
+            <div type="section">
+                <p>"Sir, I heard you using the word 'Jackass.'  Did 
+                    you apply it to me?"
+                    "No, sir.  Do you think you are the only jackass 
+                    in the world?"</p>
+                <milestone unit="line"/>
+            </div>
+            <div type="section">
+                <p>It is the fashion in all well-ordered burgs to have 
+                    what is known as a "Rialto" for the exploitation of 
+                    our favorite matinee idols.  Why not have a street 
+                    known as the "Diamond," where our stars from the
+                    field can also pose and make goo-goo eyes, they can
+                    do it as well as the hams.</p>
+            </div>
+            <div type="comic">
                 <pb n="87"/>
+                <figure facs="OG087.jpg">
+                    <head>A Lost Bawl.</head>
+                </figure>
+            </div>
+            <div type="section">
+                <p>Instead of shouting "What's the matter with----" 
+                    let us invent a yell that will answer for the fan. 
+                    We should petition the Nat. com. to offer a suitable 
+                    prize for one.</p>
+                <milestone unit="line"/>
+            </div>
+            <div type="section">
+                <p>One barnyard hen to another, another watching 
+                    the Easter parade:  "They may steal our feathers, 
+                    but we've got the edge on them when it comes to 
+                    incubators."</p>
+            </div>
+            <div type="section">
                 <pb n="88"/>
+                <head>This will paralyze him.</head>
+                <p>When the boss asks you why you want the after- 
+                    noon off just tell him that you want to go to the 
+                    ball game.  He will probably be so startled at your 
+                    frankness that the desired permission will be forth- 
+                    coming before he recovers.</p>
+                <milestone unit="line"/>
+            </div>
+            <div type="section">
+                <p>Prof. Strait-—"Bridge! Yes, it is a simple name, 
+                    but playing it has driven thousands into bank- 
+                    ruptcy!"
+                    Gaychappe--"Yes; how would it do to call it  
+                    suspension bridge."</p>
+                <milestone unit="line"/>
+            </div>
+            <div type="section">
+                <p>Hubby—"Gracious, Helen!  That hobo has been 
+                    singing out in the back yard for the last hour." 
+                    Wifey--"Yes, William. It is all my fault."
+                    Hubby--"Your fault?" 
+                    Wifey--"Indeed it is, I thought I was giving him 
+                    a dish of boiled oatmeal, and instead of that I boiled 
+                    up the birdseed by mistake."</p>
+                <milestone unit="line"/>
+            </div>
+            <div type="section">
+                <p>"Isn't it disgracefull the way women smoke now-
+                    adays?"
+                    "Why?"
+                    "I just saw an advertisement offering to any 
+                    woman six puffs for a dollar."</p>
+            </div>
+            <div type="comic">
                 <pb n="89"/>
+                <figure facs="OG089.jpg">
+                    <head>Is this a Fan?</head>
+                </figure>
+            </div>
+            <div type="section">
+                <p>This cold I got from 
+                    changing clothes, 
+                    Wearing low shoes 
+                    and open hothes. 
+                    Gosh darn this run- 
+                    ing of the nothes! 
+                    At that first game I 
+                    almost frothes, 
+                    And, lord! I'm stiff. 
+                    Can you suppothes 
+                    The Bleachers gave 
+                    me such a dothes?</p>
+                <milestone unit="line"/>
+            </div>
+            <div type="section">
+                <p>School Teacher. "What is your idea, Tommy, of 
+                    a 'word in season'?" 
+                    Tommy. "It's the word paw uses when he wants 
+                    to go to the ball game, and has to start a fire in the 
+                    furnace instead."</p>
+                <milestone unit="line"/>
+            </div>
+            <div type="section">
+                <p>Escort--Quite a number of policemen out today. 
+                    Dear Girl--I suppose they are here to keep the 
+                    players from stealing bases.</p>
+                <milestone unit="line"/>
+            </div>
+            <div type="section">
+                <p>Pipe the whole Fan family.</p>
+            </div>
+            <div type="poem">
                 <pb n="90"/>
+                <head>The one absorbing topic</head>
+                <p>The one absorbing topic
+                    Have you heard about the scandal 
+                    That involvess a statesman great? 
+                    And a banker and a minister, 
+                    And the ruler of a state? 
+                    They tell me——let me whisper——" 
+                    G'wan! But by the way, 
+                    I wonder can you tell me 
+                    Who's in the box today?
+                    
+                    There's another big strike threatened, 
+                    'Twill bring on a bitter strife, 
+                    And the trusts have got a corner 
+                    On the necessities of life. 
+                    The people talk of looking 
+                    For help to Theodore, 
+                    And then—-—" Aw, cut the piffle out,
+                    And tell me, what's the score?</p>
+                <milestone unit="line"/>
+            </div>
+            <div type="section">
+                <p>"Are you Hungary?" 
+                    "Yes, Siam." 
+                    "Well, come along; I'll Fiji." This is not taken 
+                    from the Matthewson or Evers stunt, nor any of the 
+                    numerous lives of other athletic artists.</p>
+                <milestone unit="line"/>
+            </div>
+            <div type="section">
+                <p>Put not thy trust in yesterday's score.</p>
+            </div>
+            <div type="comic">
                 <pb n="91"/>
+                <figure facs="OG091.jpg">
+                    <head>I'm just laying for that Fowl.</head>
+                </figure>
+            </div>
+            <div type="section">
+                <p>"I understand you utilize the squeal of an animal 
+                    that passes through your slaughter house." 
+                    "Yes," answered the Chicago meat packer. "We 
+                    are arranging to lease that to the baseball rooter 
+                    when he wants to make a holler."</p>
+                <milestone unit="line"/>
+            </div>
+            <div type="section">
+                <p>Little does the man with a season pass to the ball 
+                    grounds care whether Morgan or Rockefeller owns
+                    the earth.</p>
+                <milestone unit="line"/>
+            </div>
+            <div type="section">
+                <p>Cheer up! Win or lose, you have had your fun
+                    for the price of admission.</p>
+            </div>
+            <div type="section">
                 <pb n="92"/>
+                <head>The six best sellers.</head>
+                <p>Can you name the six best sellers? The book 
+                    publishers are falling over one another to get the 
+                    dope that is being given a fanable public by the so- 
+                    called scribeologists who during summer time work 
+                    on the diamond, but during loafing spells have vis- 
+                    ions of greatness being thrust upon them through the 
+                    medium of the professional story writer. And the 
+                    funny part is that the f. p. stand for the game from 
+                    their ball playing heroes.</p>
+                <milestone unit="line"/>
+            </div>
+            <div type="section">
+                <p>In Detroit they can't talk anything but baseball 
+                    and automobile English. Listen! "You can't tell a 
+                    man's horsepower by his gasolene capacity."</p>
+                <milestone unit="line"/>
+            </div>
+            <div type="section">
+                <p>Willie, after a matutinal castigation. "Gee, maw,
+                    it's a shame you don't play baseball—I bet you 
+                    could bat 300!"</p>
+                <milestone unit="line"/>
+            </div>
+            <div type="section">
+                <p>"Young men," quoth the college coach to the 
+                    assembled team, "culture counts in the national 
+                    game." 
+                    "What ye givin' us?" shrieked an old timer. "Old 
+                    Pete Bunker of our town thote Henry James was a
+                    tavern clerk, but he played all the ball there was."</p>
+            </div>
+            <div type="comic">
                 <pb n="93"/>
+                <figure facs="OG093.jpg">
+                    <head>Not being able to root, he got the hook.</head>
+                </figure>
+            </div>
+            <div type="section">
+                <p>Outsider (soliloquizing) This show business is a 
+                    great game. Man writes a book. Playwright works 
+                    it into a play. You see the play and then buy the 
+                    book to understand the show.</p>
+                <milestone unit="line"/>
+            </div>
+            <div type="section">
+                <p>What's in a name? The umpire would receive as 
+                    much cussin' by any other name, and pay about as 
+                    much attention to it as they do now.</p>
+            </div>
+            <div type="section">
                 <pb n="94"/>
-                
-                
+                <p>The La Salle Street 
+                    Station Store 
+                    ON THE ELEVATED LOOP 
+                    "La Salle and Van Buren Streets" 
+                    EDWARD R. WALSH, Manager 
+                    Wine and Spirit Merchants 
+                    Imported and Domestic Fancy Table 
+                    Delicacies, High-Grade Imported 
+                    and Domestic Cigars, Fine 
+                    Fruits and Confectionery </p>
+                <milestone unit="line"/>
+                <p> Baskets, Fruits, Confectionery and 
+                    Delicacies Packed and delivered 
+                    to all parts. Express prepaid </p>
+                <milestone unit="line"/>
+                <p>Orders left with us in the morning will be 
+                    packed by experienced shippers, and delivered 
+                    to train or home the same day.</p>
+            </div>
 
-               
-
-           
         </body>
     </text>
 
