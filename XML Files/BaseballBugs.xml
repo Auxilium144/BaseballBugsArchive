@@ -102,9 +102,9 @@
     <!-- START ENCODING DOCUMENT HERE -->
     <text>
         <front>
-            <figure facs="OG001.jpg"/>
-            <figure facs="OG003.jpg"/>
-            <figure facs="OG004.jpg"/>
+            <figure facs="R001.jpg"/>
+            <figure facs="R003.jpg"/>
+            <figure facs="R004.jpg"/>
             <div type="section">
                 <pb n="6"/>
                 <head>APOLOGY.</head>
@@ -132,7 +132,7 @@
             </div>
         </front>  
         <body>
-            <figure facs="OG007.jpg"/>
+            <figure facs="R007.jpg"/>
 
             <div type="section">
                 <pb n="7"/>
@@ -202,7 +202,7 @@
             </div>
             <div type="comic">
                 
-                <figure facs="OG009.jpg">
+                <figure facs="R009.jpg">
                     <head>Some Warm Muffs.</head>
                     <caption>WIFEY—"Henry, is it cold out at the baseball grounds 
                         these days? " 
@@ -249,7 +249,7 @@
             </div>
             <div type="comic">
                 <pb n="11"/>
-                <figure facs="OG011.jpg"/>
+                <figure facs="R011.jpg"/>
                 
             </div>
             <div type="poem">
@@ -358,7 +358,7 @@
             </div>
             <div type="comic">
                 
-                <figure facs="OG015.jpg">
+                <figure facs="R015.jpg">
                     <head>Reminiscences.</head>
                     <caption>FIRST PARROT BUG—"Where did you cop out all that 
                     bad language?"
@@ -369,7 +369,7 @@
             </div>
             <div type="comic">
                 <pb n="16"/>
-                <figure facs="OG016.jpg">
+                <figure facs="R016.jpg">
                     <head>To the Ball Grounds or Bust.</head>
                     <caption>Hooligan— "Oi do be wondherin' how th' number 
                     av min in church compare wid thi wimmin?" 
@@ -500,13 +500,13 @@
             <div type="comic">
                 <pb n="21"/>
                 
-                <figure facs="OG021.jpg">
+                <figure facs="R021.jpg">
                     <head>The Beginning of our Trouble</head>
                     <caption>Gimme a quick shave
                         Right here Sir Yessir</caption>
                     
                 </figure>
-                <figure facs="OG021.jpg">
+                <figure facs="R021.jpg">
                 <head>A Wet Finish</head>
                 <caption>Now if the Tigers lose two and New York two and- well
                     SAY DO I GET A SHAVE SAY</caption>
@@ -547,7 +547,7 @@
             <div type="comic">
                 <pb n="23"/>
                 
-                <figure facs="OG023.jpg">
+                <figure facs="R023.jpg">
                 <head>Reading the Dope on the way to the Grounds.</head>
                 </figure>
                 <caption>"I teach my parrot only short words." 
@@ -592,7 +592,7 @@
             <div type="comic">
                 <pb n="25"/>
                 
-                <figure facs="OG025.jpg">
+                <figure facs="R025.jpg">
                     <head>Back from the Grounds.  Favorite Losers.</head>
                     <caption>"Algy, why does the catcher wear that muzzle?" 
                         "To prevent him from biting the batsman my 
@@ -694,7 +694,7 @@
             <div type="comic">
                 <pb n="29"/>
                 
-                <figure facs="OG029.jpg">
+                <figure facs="R029.jpg">
                     <head>The Home Plate.</head>
                     <caption>Mrs. Black-"Yo' husband doan' take no intrest in
                         baseball, do he, Mrs. Brown? Now my husband am always 
@@ -743,7 +743,7 @@
             <div type="comic">
                 <pb n="31"/>
                 
-                <figure facs="OG031.jpg">
+                <figure facs="R031.jpg">
                     <head>Imitation of an Orator Reciting "Casey at the Bat."</head>
                     <caption>De Style-"Was that a drinking-song the sop-
                         rano just sang?"
@@ -856,7 +856,7 @@
             </div>
             <div type="comic">
                 <pb n="35"/>
-                <figure facs="OG035.jpg">
+                <figure facs="R035.jpg">
                     <caption>WINKs-"There goes a man whose  
                         inventive genius has been a boon to  
                         base ballists." 
@@ -1054,7 +1054,7 @@
             </div>
             <div type="comic">
                 <pb n="41"/>
-                <figure facs="OG041.jpg">
+                <figure facs="R041.jpg">
                 <head>A Proud Fan exhibiting his Cub.</head>
                     <caption>"He was very unpopular before the last ball 
                         game, but after he had three runs and won tlv 
@@ -1121,7 +1121,7 @@
             </div>
             <div type="comic">
                 <pb n="44"/>
-                <figure facs="OG044.jpg">
+                <figure facs="R044.jpg">
                     <head>What did we do to that Pennant?</head>
                     <caption>Oh! What a headache!</caption>
                 </figure>
@@ -1334,7 +1334,7 @@
             </div>
             <div type="comic">
                 <pb n="51"/>
-                <figure facs="OG051.jpg">
+                <figure facs="R051.jpg">
                     <caption>"I Will."--Apologies to Miss Chicago.</caption>
                 </figure>
             </div>
@@ -1435,7 +1435,7 @@
             </div>
             <div type="comic">
                 <pb n="55"/>
-                <figure facs="OG055.jpg">
+                <figure facs="R055.jpg">
                     <head>Idle thoughts of the Season's end.</head>
                 </figure>
             </div>
@@ -1584,7 +1584,7 @@
             </div>
             <div type="comic">
                 <pb n="61"/>
-                <figure facs="OG061.jpg">
+                <figure facs="R061.jpg">
                     <caption>"Rachael, if you only gif me a ten cent sheck, you
                         can go mit me to de Ball game."</caption>
                 </figure>
@@ -1701,7 +1701,7 @@
                 <milestone unit="line"/>
             </div>
             <div type="comic">
-                <figure facs="OG065.jpg">
+                <figure facs="R065.jpg">
                     <caption>"Shay Mike! What became of that ball?" 
                         "Be gobs, sir, ye must have it in yer stomach."</caption>
                 </figure>
@@ -1791,7 +1791,7 @@
             </div>
             <div type="comic">
                 <pb n="68"/>
-                <figure facs="OG068.jpg">
+                <figure facs="R068.jpg">
                     <head>The day after the Bleacher experience.</head>
                 </figure>
             </div>
@@ -1845,7 +1845,7 @@
             </div>
             <div type="comic">
                 <pb n="70"/>
-                <figure facs="OG087.jpg">
+                <figure facs="R087.jpg">
                 </figure>
             </div>
             <div type="section">
@@ -1878,7 +1878,7 @@
             </div>
             <div type="comic">
                 <pb n="71"/>
-                <figure facs="OG071.jpg">
+                <figure facs="R071.jpg">
                     <caption>Gentlemanly Magnate who acquires easy money.</caption>
                 </figure>
             </div>
@@ -1921,7 +1921,7 @@
                     "Probably he used to be a walking deligate."</p>
             </div>
             <div type="comic">
-                <figure facs="OG073.jpg">
+                <figure facs="R073.jpg">
                     <caption>Robber, Thief.  What do you know about that?</caption>
                     <figDesc></figDesc>
                 </figure>
@@ -1999,7 +1999,7 @@
                     negotiable check you'll ever get.</p>
             </div>
             <div type="comic">
-                <figure facs="OG076.jpg">
+                <figure facs="R076.jpg">
                     <pb n="76"/>
                     <head>Meet me at the Gate.</head>
                 </figure>
@@ -2080,7 +2080,7 @@
             </div>
             <div type="comic">
                 <pb n="79"/>
-                <figure facs="OG079.jpg">
+                <figure facs="R079.jpg">
                     <head>A Fan Philosopher.</head>
                     <caption>It helps no hard luck tale, I vouch, 
                         Rehearsing it; 
@@ -2134,7 +2134,7 @@
             </div>
             <div type="comic">
                 <pb n="81"/>
-                <figure facs="OG081.jpg">
+                <figure facs="R081.jpg">
                     <caption>He was Struck out.</caption>
                 </figure>
             </div>
@@ -2177,7 +2177,7 @@
             </div>
             <div type="comic">
                 <pb n="83"/>
-                <figure facs="OG083.jpg">
+                <figure facs="R083.jpg">
                     <head>Dreaming of Home--Plates.</head>
                     <caption>"Call me early in the morning, 
                         Call me early, mother, dear; 
@@ -2227,7 +2227,7 @@
             </div>
             <div type="comic">
                 <pb n="85"/>
-                <figure facs="OG085.jpg">
+                <figure facs="R085.jpg">
                     <head>Strike! One.</head>
                 </figure>
             </div>
@@ -2281,7 +2281,7 @@
             </div>
             <div type="comic">
                 <pb n="87"/>
-                <figure facs="OG087.jpg">
+                <figure facs="R087.jpg">
                     <head>A Lost Bawl.</head>
                 </figure>
             </div>
@@ -2335,7 +2335,7 @@
             </div>
             <div type="comic">
                 <pb n="89"/>
-                <figure facs="OG089.jpg">
+                <figure facs="R089.jpg">
                     <head>Is this a Fan?</head>
                 </figure>
             </div>
@@ -2410,7 +2410,7 @@
             </div>
             <div type="comic">
                 <pb n="91"/>
-                <figure facs="OG091.jpg">
+                <figure facs="R091.jpg">
                     <head>I'm just laying for that Fowl.</head>
                 </figure>
             </div>
@@ -2468,7 +2468,7 @@
             </div>
             <div type="comic">
                 <pb n="93"/>
-                <figure facs="OG093.jpg">
+                <figure facs="R093.jpg">
                     <head>Not being able to root, he got the hook.</head>
                 </figure>
             </div>

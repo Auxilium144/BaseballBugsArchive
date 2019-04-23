@@ -129,12 +129,9 @@
         <xsl:apply-templates/>
         <xsl:element name="img">
             <xsl:attribute name="src">
-                <xsl:value-of select="@facs"/>
+                <xsl:value-of select="concat('resized_photos60/',@facs)"/>
             </xsl:attribute>
            
-            <xsl:attribute name="width">
-                <xsl:value-of select="'300'"/>
-            </xsl:attribute>
            
         </xsl:element>    
         <br/>
