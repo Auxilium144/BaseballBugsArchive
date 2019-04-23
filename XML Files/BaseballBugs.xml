@@ -102,9 +102,9 @@
     <!-- START ENCODING DOCUMENT HERE -->
     <text>
         <front>
-            <pb facs="OG001.jpg"/>
-            <pb facs="OG003.jpg"/>
-            <pb facs="OG004.jpg"/>
+            <figure facs="OG001.jpg"/>
+            <figure facs="OG003.jpg"/>
+            <figure facs="OG004.jpg"/>
             <div type="section">
                 <pb n="6"/>
                 <head>APOLOGY.</head>
@@ -132,7 +132,7 @@
             </div>
         </front>  
         <body>
-            <pb facs="OG007.jpg"/>
+            <figure facs="OG007.jpg"/>
 
             <div type="section">
                 <pb n="7"/>
@@ -204,13 +204,14 @@
                 
                 <figure facs="OG009.jpg">
                     <head>Some Warm Muffs.</head>
+                    <caption>WIFEY—"Henry, is it cold out at the baseball grounds 
+                        these days? " 
+                        HUBBY—-"Cold? Why Helen, it is as hot as blazes. What 
+                        in the name of Sam. Hill gave you Chat impression ? " 
+                        WIFEY—" Why, the papers say tbe features of yesterday's 
+                        game were several warm muffs.</caption>
                 </figure>
-                <p>WIFEY—"Henry, is it cold out at the baseball grounds 
-                    these days? " 
-                    HUBBY—-"Cold? Why Helen, it is as hot as blazes. What 
-                    in the name of Sam. Hill gave you Chat impression ? " 
-                    WIFEY—" Why, the papers say tbe features of yesterday's 
-                    game were several warm muffs.</p>
+                
             </div>
             <div type="section">
                 <pb n="10"/>
@@ -248,8 +249,8 @@
             </div>
             <div type="comic">
                 <pb n="11"/>
-                <figure facs="OG011.jpg">
-                </figure>
+                <figure facs="OG011.jpg"/>
+                
             </div>
             <div type="poem">
                 <pb n="12"/>
@@ -259,7 +260,8 @@
                     <l>DONALD DOUGLASS </l>
                     <l>Ninth Inning, man on third, two gone, and score 2-2.</l>
                 </head> <!--NEEDS TO BE IN BOLD!-->
-                <lg>
+                <lg type="stanza">
+
                  <l>To wait, or not to wait,—that is the question:</l>
                     <l>Whether 'tis nobler in this game to suffer</l>
                     <l>The taunts and yells of the outrageous fans, </l>
@@ -284,7 +286,8 @@
                     <l>When he himself his fame might make</l>
                 </lg>
                 <pb n="13"/>
-                <lg>
+                <lg type="stanza">
+
                     <l>By a 2-bagger? Who would roastings bear, </l>
                     <l>To grunt and swear under a weary game, </l>
                     <l>But that the dread of somethiug after it, </l>
@@ -357,21 +360,23 @@
                 
                 <figure facs="OG015.jpg">
                     <head>Reminiscences.</head>
-                </figure>
-                <p>FIRST PARROT BUG—"Where did you cop out all that 
+                    <caption>FIRST PARROT BUG—"Where did you cop out all that 
                     bad language?"
                     SECOND DITTO—"Sh! listen. My ex-boss thought he 
-                    understood the base ball game."</p>
+                    understood the base ball game."</caption>
+                </figure>
+                
             </div>
             <div type="comic">
                 <pb n="16"/>
                 <figure facs="OG016.jpg">
                     <head>To the Ball Grounds or Bust.</head>
-                </figure>
-                <p>Hooligan— "Oi do be wondherin' how th' number 
+                    <caption>Hooligan— "Oi do be wondherin' how th' number 
                     av min in church compare wid thi wimmin?" 
                     Hinessy— "About th' same as th' wimmin com- 
-                    pare wid th' min in th' pinitinchery"</p>
+                    pare wid th' min in th' pinitinchery"</caption>
+                </figure>
+                
             </div>
             <div type="section">
                 <pb n="17"/>
@@ -410,7 +415,8 @@
             <div type="poem">
                 <pb n="18"/>
                 <head>Why "Pug" Dugan called McCarty Out.</head>
-                <lg>
+                <lg type="stanza">
+
                     <l>No wonder that "Pug" Dugan</l>
                     <l>Wore a perpetual scowl,</l>
                     <l>No wonder that unto him</l>
@@ -444,7 +450,8 @@
                     <l>(The fierce game still a tie), </l>
                     <l>And "Pug" unto himself said, </l>
                     <l>"The time arrives to die!" </l></lg>
-                <lg><l>McCarthy, of the home team, </l>
+                <lg type="stanza">
+<l>McCarthy, of the home team, </l>
                     <l> The bison's twirler faced. </l>
                     <l>The first ball pitched he clouted;</l> 
                     <l> In vain the fielder chased.</l>
@@ -452,7 +459,8 @@
                     <l>While the joy-crazed multitude </l>
                     <l>Yelled "Rah for Dan McCarthy! </l>
                     <l>We're one run to the good! </l></lg>
-                <lg><l>But in that merry moment </l>
+                <lg type="stanza">
+<l>But in that merry moment </l>
                     <l>The umpire raised his hand. </l>
                     <l>A hush fell on the ball-field, </l>
                     <l>on bleacher, box and stand. </l>
@@ -461,7 +469,8 @@
                     <l>McCarthy's out! The first bag </l>
                     <l>By a full yard he cut!</l></lg>
                 <pb n="20"/>
-                <lg><l>The bleachers gave a war-whoop!</l>
+                <lg type="stanza">
+<l>The bleachers gave a war-whoop!</l>
                     <l>The grandstand joined its roar!</l>
                     <l>The scribes within the press-box,</l>
                     <l>Bawled loudly for "Pug's" gore!</l>
@@ -640,7 +649,8 @@
             </div>
             <div type="poem">
                 <head>"Een Right."</head>
-                <lg><l>Say, boss, you bet,</l> 
+                <lg type="stanza">
+<l>Say, boss, you bet,</l> 
                     <l>My boy Sylves, </l>
                     <l>He joosta got een right: </l>
                     <l>No work all day, </l>
@@ -653,7 +663,8 @@
                     <l>On wat I set— </l>
                     <l>My boy, he ees een right.</l></lg>
                 <pb n="28"/>
-                <lg><l>Wen first he train</l>
+                <lg type="stanza">
+<l>Wen first he train</l>
                     <l>For dat-a game</l>
                     <l>He use I-taly name;</l>
                     <l>Some fren, mooch wise,</l>
@@ -744,42 +755,50 @@
             <div type="poem">
                 <pb n="32"/>
                 <head>Just Baseball.</head>
-                <lg><l>The honey of spring was in the air</l>
+                <lg type="stanza">
+<l>The honey of spring was in the air</l>
                     <l>The day was one for joy,</l>
                     <l>But he sat at his desk and didn't care</l>
                     <l>And he growled at the office boy.</l></lg>
                     
-                <lg><l>He nursed a big grouch--the world looked dark-</l>
+                <lg type="stanza">
+<l>He nursed a big grouch--the world looked dark-</l>
                     <l>He only grumbled and frowned; </l>
                     <l>He grabbed his hat and went to the park </l>
                     <l>To see the home team downed.</l></lg>
                     
-                <lg><l>For eight innings he sat—not a feeling of pride, </l>
+                <lg type="stanza">
+<l>For eight innings he sat—not a feeling of pride, </l>
                     <l>Though the game was close and fast;— </l>
                     <l>He looked for defeat, though the game was tied </l>
                     <l>When they took the field for the last.</l></lg>
                     
-                <lg><l> Three men got on bases, chances looked slim,</l>
+                <lg type="stanza">
+<l> Three men got on bases, chances looked slim,</l>
                     <l>A score seemed as sure as fate.</l>
                     <l>He muttered a prayer, and his smile was grim </l>
                     <l>As the batter strode to the plate.</l></lg>
                     
-                <lg><l> The pitcher gazed, his arm held high, </l>
+                <lg type="stanza">
+<l> The pitcher gazed, his arm held high, </l>
                     <l>And smiling, tossed his head. </l>
                     <l>The batter swung-the rooters sighted </l>
                     <l>As the ball for the outfield sped.</l></lg>
                 <pb n="33"/>
-                <lg><l>But into the air like a bolt from a gun</l>
+                <lg type="stanza">
+<l>But into the air like a bolt from a gun</l>
                     <l>Went the shortstop and saved the day.</l>
                     <l>His eye was true- and there was no run,</l>
                     <l>For he pulled off a triple play.</l></lg>
                     
-                <lg><l> The man with the grouch jumped up on his feet </l>
+                <lg type="stanza">
+<l> The man with the grouch jumped up on his feet </l>
                     <l>And hurled his hat at the sun, </l>
                     <l>And hc whooped and roared and stamped his feet </l>
                     <l>When the home boys made a run.</l></lg>
                     
-                <lg><l> Happy and glad he went on his way </l>
+                <lg type="stanza">
+<l> Happy and glad he went on his way </l>
                     <l>His grouch gone beyond re-call, </l>
                     <l>And his happiness lasted for many a day,— </l>
                     <l>Yes, baseball's the best game of all.</l></lg>
@@ -878,17 +897,20 @@
             <div type="poem">
                 <pb n="36"/>
                 <head>The Umpire.</head>
-                <lg><l>Of all the inscrutable creatures there be </l>
+                <lg type="stanza">
+<l>Of all the inscrutable creatures there be </l>
                     <l>A top of the earth or below in the sea. </l>
                     <l>The ump is the beatenest being, sure, He </l>
                     <l>Consorteth apart in mystery. </l></lg>
                 
-                <lg><l>His integument's blue, there's a pad on his chest, </l>
+                <lg type="stanza">
+<l>His integument's blue, there's a pad on his chest, </l>
                     <l>His frontal is masked and his features unguessed; </l>
                     <l>On his mind is a cap, and—well, as for the rest </l>
                     <l>Whatever it be, its the subject of jest.</l> </lg>
                 
-                <lg><l>Oh, the ump's a pariah—the other team's tool </l>
+                <lg type="stanza">
+<l>Oh, the ump's a pariah—the other team's tool </l>
                     <l>He bawls out decisions and balls up each rule; </l>
                     <l>He sure gets the vote </l>
                     <l>As the champion goat; </l>
@@ -896,18 +918,21 @@
                     <l>The umps get their bumps, but this to b </l>
                     <l>There is balm (vernal plasters) in Gilead. </l></lg>
                 
-                <lg><l>The ump is a seer who was born with a cad; </l>
+                <lg type="stanza">
+<l>The ump is a seer who was born with a cad; </l>
                     <l>The ump is a Solomon—under a pall ; </l>
                     <l>One time he's the Saint, and the nest </l>
                     <l>The ump's like the place Caesar tells of-all Gaul.</l></lg>
                 <pb n="37"/>
-                <lg><l>He's a modern Bozzais—shouts "Strike!" with clan </l>
+                <lg type="stanza">
+<l>He's a modern Bozzais—shouts "Strike!" with clan </l>
                     <l>(In the sumnler no doubt he likes batters to fan), </l>
                     <l>And if the armed foe should rebel at the plan </l>
                     <l>It's the bench quick for him and proscription by </l>
                     <l>Ban. </l></lg>
                 
-                <lg><l>Oh, the ump is a monarch, a pocket size Czar;</l>
+                <lg type="stanza">
+<l>Oh, the ump is a monarch, a pocket size Czar;</l>
                     <l>He could even give points in that line to T.R. </l>
                     <l>He is always emphatic </l>
                     <l>And often erratic; </l>
@@ -934,7 +959,8 @@
             <div type="poem">
                 <pb n="38"/>
                 <head>Willie's Brother's Demise.</head>
-                <lg><l>Willie was an office boy,</l>
+                <lg type="stanza">
+<l>Willie was an office boy,</l>
                     <l>Willie was a fan;</l>
                     <l>Willie knew more about baseball</l>
                     <l>Than many an older man.</l>
@@ -942,7 +968,8 @@
                     <l>Was sick as a man could be,</l>
                     <l>And "Please could he get off to day</l>
                     <l>To bear bim companee?" </l></lg>
-                <lg><l>"You may," the boss said gently,</l>
+                <lg type="stanza">
+<l>"You may," the boss said gently,</l>
                     <l>Gazing at Willie the while,</l>
                     <l>And Willie's look as he stood there</l>
                     <l> Was totally free from guile.</l>
@@ -950,16 +977,19 @@
                     <l> He slowly went outside,</l>
                     <l> While gloom hung over the office,</l>
                     <l> And the secretary cried.</l></lg>
-                <lg><l>Next day he showed up at the office,</l>
+                <lg type="stanza">
+<l>Next day he showed up at the office,</l>
                     <l>With a frown as black as night;</l>
                     <l> The Boss, with kindly manner,</l>
                     <l>Inquired if all was not right.</l></lg>
                 <pb n="39"/>
-                <lg><l>"Not on your life," said Willie, </l>
+                <lg type="stanza">
+<l>"Not on your life," said Willie, </l>
                     <l>Forgetting himself in his rage, </l>
                     <l> Which was rather improper of Willie, </l>
                     <l>Considering he wasn't of age, </l></lg>
-                <lg><l>"Oh, tell me, Willie, tell me," </l>
+                <lg type="stanza">
+<l>"Oh, tell me, Willie, tell me," </l>
                     <l>The gentle Boss then cried; </l>
                     <l>"Your brother—is he safe at home ? </l>
                     <l>Or has the poor chap died ? " </l>
@@ -1002,7 +1032,8 @@
                 <milestone unit="line"/>
             </div>
             <div type="poem">
-                <lg><l>Now, here's a fact, in jest of course,</l>
+                <lg type="stanza">
+<l>Now, here's a fact, in jest of course,</l>
                    <l>Yet not a cause for laughter;</l>
                    <l>Who chews the rag through all this life,</l>
                    <l>Will surely smoke hereafter.</l></lg>
@@ -1138,12 +1169,14 @@
             <div type="poem">
                 <pb n="46"/>
                 <head>Ye Ancienct Manageer.</head>
-                <lg><l>The baseball Fan sat on a stone, </l>
+                <lg type="stanza">
+<l>The baseball Fan sat on a stone, </l>
                     <l>He could not choose but hear, </l>
                     <l>And then spake on that hopeful man— </l>
                     <l>The Bright-Eyed Manageer. </l></lg>
                     
-                <lg><l>"Although it's early, it would seem," </l>
+                <lg type="stanza">
+<l>"Although it's early, it would seem," </l>
                     <l>The modest manager will say, x </l>
                     <l>"We have the very finest team </l>
                     <l>The diamond's seen in many a day. </l>
@@ -1152,7 +1185,8 @@
                     <l>That we will put 'em all away— </l>
                     <l>We ought to get the flag this year. </l></lg>
                     
-                 <lg><l>"Our staff of pitchers is supreme; </l>
+                 <lg type="stanza">
+<l>"Our staff of pitchers is supreme; </l>
                     <l>Our catcher is a veteran gray; </l>
                     <l>Our fielders are the very cream— </l>
                     <l>The finest in the U. S. A. </l>
@@ -1161,7 +1195,8 @@
                     <l>We'll get in front and there we'll stay— </l>
                     <l>We ought to get the flag this year. </l></lg>
                     
-                <lg><l>"Yes, you can bet your last centime </l>
+                <lg type="stanza">
+<l>"Yes, you can bet your last centime </l>
                     <l>The rest'll know there's been a fray</l>
                 <pb n="47"/>
                     <l>When we get through, and that's no dream. </l>
@@ -1174,7 +1209,8 @@
             <div type="poem">
                 <head>L'ENVOI</head>
                      
-                <lg><l>Pin on thy premature bouquet, </l>
+                <lg type="stanza">
+<l>Pin on thy premature bouquet, </l>
                     <l>O Prophet of the Leather Sphere, </l>
                     <l>We feel, what time we hope and pray, </l>
                     <l>We ought to get the flag this year. </l></lg> 
@@ -1244,7 +1280,8 @@
             </div>
             <div type="poem">
                 <head>Just Averages.</head>
-             <lg><l>The Winter league is here again, and in his native </l>
+             <lg type="stanza">
+<l>The Winter league is here again, and in his native </l>
                  <l>town </l>
                  <l>The hero of a thousand games has quietly settled </l>
                  <l>down.</l>
@@ -1263,7 +1300,8 @@
                  <l>Is keeping books this winter for a shop that deals</l>
                  <l>in buckets,</l></lg>
                 <pb n="50"/>
-             <lg><l>And getting for the same each month as much as</l>
+             <lg type="stanza">
+<l>And getting for the same each month as much as</l>
                  <l>twenty ducats.</l>
                  <l>McGonnigal, the fielder fleet, who hit like mad all</l>
                  <l>season,</l>
@@ -1303,7 +1341,8 @@
             <div type="poem">
                 <pb n="52"/>
                 <head>Like Kellie Did.</head>
-                <lg>
+                <lg type="stanza">
+
                     <l>Bill Sweeney was a backstop on the mooted Bug-</l>
                     <l>ville team:</l>
                     <l>At winging down to second base Bill Sweeney was</l>
@@ -1510,7 +1549,8 @@
             <div type="poem">
                 <pb n="60"/>
                 <head>The First Official Line-Up.</head>
-                <lg><l>Eve stole first, and Adam second;</l>
+                <lg type="stanza">
+<l>Eve stole first, and Adam second;</l>
                     <l>Ruth in the field won fame. </l>
                     <l>Goliath was struck out by David, </l>
                     <l>And Abel made a base hit on Cain. </l>
@@ -1586,7 +1626,8 @@
             <div type="poem">
                 <pb n="63"/>
                 <head>Get on to the Phenom.</head>
-                <lg><l>Young Lochinvar came out of the brush, </l>
+                <lg type="stanza">
+<l>Young Lochinvar came out of the brush, </l>
                     <l>He came with a yell, he came with a rush; </l>
                     <l>He'd a "curve like a pretzel," and '"marvelous </l>
                     <l>speed," </l>
@@ -1594,7 +1635,8 @@
                     <l>He "batted .300;" he "lined 'em out far"-- </l>
                     <l>Oh, he was some player, was young Lochinvar,</l></lg>
                     
-                <lg><l>In pratice he made the big leaguers fan air, </l>
+                <lg type="stanza">
+<l>In pratice he made the big leaguers fan air, </l>
                     <l>In batting and fielding he surely was there. </l>
                     <l>His name in the papers appeared every day, </l>
                     <l>And the fans almost wept when we farmed him </l>
@@ -1674,7 +1716,8 @@
             <div type="poem">
                 <pb n="66"/>
                 <head>And we Played Ball.</head>
-                <lg><l>Once more throughout the land resounds</l>
+                <lg type="stanza">
+<l>Once more throughout the land resounds</l>
                     <l>A bunch of sweet, familiar sounds, </l>
                     <l>As though without the last excuse</l>
                     <l>The college children had broke loose. </l>
@@ -1682,7 +1725,8 @@
                     <l>It's just the ancient cry,</l>
                     <l>Play ball! </l></lg>
                     
-                <lg><l>When winter quits us on a strike </l>
+                <lg type="stanza">
+<l>When winter quits us on a strike </l>
                     <l>And gentle spring comes down the pike,</l> 
                     <l>Then something stirs the youthful breast</l> 
                     <l>Beneath its soiled, but manly vest. </l>
@@ -1725,7 +1769,8 @@
                 <milestone unit="line"/>
             </div>
             <div type="poem">
-                <lg><l>No; it was not a railroad wreck </l>
+                <lg type="stanza">
+<l>No; it was not a railroad wreck </l>
                     <l>That made him wabble lame. </l>
                     <l>He got that way the very day </l>
                     <l>He practiced for a game.</l></lg>
@@ -1771,7 +1816,8 @@
             <div type="poem">
                 <pb n="69"/>
                 <head>Ode to the Slugger.</head>
-                <lg><l>Who is it that wins all the praise,</l> 
+                <lg type="stanza">
+<l>Who is it that wins all the praise,</l> 
                     <l>Receives the burden of the day's</l>
                     <l>Applause? And has a friend who pays</l>
                     <l>For whate'er roughhouse he may raise?</l>
@@ -1847,12 +1893,14 @@
             </div>
             <div type="poem">
                 <head>A game old Sport.</head>
-                <lg><l>"Come with me and let us see some high class acting," </l>
+                <lg type="stanza">
+<l>"Come with me and let us see some high class acting," </l>
                     <l>Was his plea unto the maiden whom he wooed. </l>
                     <l>"I'm the fellow who is always benefacting, </l>
                     <l>I'm a live one, honest, Molly, I'm a dude. </l></lg>
                 
-                <lg><l>"Come with me and watch the players lightly </l>
+                <lg type="stanza">
+<l>"Come with me and watch the players lightly </l>
                     <l>tripping,</l>
                     <l>We will sit there just as though we owned the</l> 
                     <l>place;</l>
@@ -1889,7 +1937,8 @@
             <div type="poem">
                 <pb n="74"/>
                 <head>When Mooney stings the ball.</head>
-                <lg><l>When Murphy bunts, and gets to first, </l>
+                <lg type="stanza">
+<l>When Murphy bunts, and gets to first, </l>
                     <l>We cheer his feat with pride; </l>
                     <l>The ball twists slowly down the line, </l>
                     <l>And never rolls outside. </l>
@@ -1898,7 +1947,8 @@
                     <l>But, Oh, the real hi-hi-ing comes </l>
                     <l>When Mooney stings the ball!</l></lg>
                     
-                <lg><l>For Mooney has a nervous way</l>
+                <lg type="stanza">
+<l>For Mooney has a nervous way</l>
                     <l>Of handling his bat.</l>
                     <l>The pitchers hate to watch his eyes; </l>
                     <l>They don't know where they are at. </l>
@@ -1907,7 +1957,8 @@
                     <l>And, oh, the crowd lets out a yell </l>
                         <l>When Mooney stings the ball! </l></lg>
                     
-                <lg><l>Yes, Mooney was designed by fate </l>
+                <lg type="stanza">
+<l>Yes, Mooney was designed by fate </l>
                     <l>To make the pitchers mourn. </l>
                     <l>The foxy inshoots and the wides </l>
                     <l>He lets pass by with scorn. </l>
@@ -1916,7 +1967,8 @@
                     <l>Until the sphere floats o'er the plate— </l>
                     <l>Then Mooney stings the ball!</l></lg>
                 <pb n="75"/>
-                <lg><l>It moves us when the center field </l>
+                <lg type="stanza">
+<l>It moves us when the center field </l>
                     <l>Pulls fdown the fly he's cursed,</l>
                     <l>It thrills us when the shortstop's throw </l>
                     <l>Cuts off a man at first, </l>
@@ -2322,7 +2374,9 @@
             <div type="poem">
                 <pb n="90"/>
                 <head>The one absorbing topic</head>
-                <lg><l>Have you heard about the scandal </l>
+                <lg type="stanza">
+
+                    <l>Have you heard about the scandal </l>
                     <l>That involvess a statesman great? </l>
                     <l>And a banker and a minister, </l>
                     <l>And the ruler of a state? </l>
@@ -2331,7 +2385,9 @@
                     <l>I wonder can you tell me </l>
                     <l>Who's in the box today?</l></lg>
                     
-                <lg><l>There's another big strike threatened, </l>
+                <lg type="stanza">
+
+                    <l>There's another big strike threatened, </l>
                     <l> 'Twill bring on a bitter strife, </l>
                     <l> And the trusts have got a corner </l>
                     <l> On the necessities of life. </l>

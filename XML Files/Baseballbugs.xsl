@@ -39,10 +39,10 @@
             <!--    
         <xsl:value-of select="poem"/> 
         This is how you select the value within div--> 
-            <strong>
+
                 
                 <xsl:apply-templates/>
-            </strong>
+
         </div>
     </xsl:template>
     
@@ -82,17 +82,10 @@
         <xsl:choose>
             <xsl:when test="contains(@unit, 'line')">
                 <br/>
-                <img src="shun.gif"/>
+                <img src="milestone.jpg"/>
                 <br/>
             </xsl:when>
-            <xsl:when test="contains(@unit, 'dash')">
-                <br/>
-                <img src="jumpy.gif"/>
-                <br/>
-            </xsl:when>
-            <xsl:otherwise>
-                <h1>OTHERWISE</h1>
-            </xsl:otherwise>
+
         </xsl:choose>
         
         
@@ -103,28 +96,66 @@
         <br/>-->
     </xsl:template>
     
-    
+
     <xsl:template name="ParagraphCounter">
         <p>
             THIS is a book.  It has <xsl:value-of select="count(//p)"/> paragraphs
         </p>
     </xsl:template>
-    
+
+  
     <xsl:template match="pb">
-        <!-- This is a way to point directly to the file 
-        <img src="shun.gif"/>      -->
-        
-        <!-- This is a way to do dynamic output elements -->
-        <xsl:element name="img">
+        <br/>
+<!--        <xsl:element name="img">
             <xsl:attribute name="src">
+               <!-\\-  
                 <xsl:value-of select="concat('full/',@facs)"/>
+                -\\->
+                <xsl:value-of select="@facs"/>
             </xsl:attribute>
             <xsl:attribute name="width">
                 <xsl:value-of select="'300'"/>
             </xsl:attribute>
-        </xsl:element>            
+        </xsl:element> -->           
     </xsl:template>
-    <!--  -->
+    
+    <xsl:template match="figure">
+        <!-- This is a way to point directly to the file 
+        <img src="shun.gif"/>      -->
+        
+        <!-- This is a way to do dynamic output elements -->
+        <br/>
+
+        <xsl:apply-templates/>
+        <xsl:element name="img">
+            <xsl:attribute name="src">
+                <xsl:value-of select="@facs"/>
+            </xsl:attribute>
+           
+            <xsl:attribute name="width">
+                <xsl:value-of select="'300'"/>
+            </xsl:attribute>
+           
+        </xsl:element>    
+        <br/>
+        
+
+    </xsl:template>
+    
+    <xsl:template match="caption">
+        
+        <p><strong>Caption: </strong><xsl:apply-templates/></p>
+        
+
+    </xsl:template>
+    
+    <xsl:template match="head">
+        
+        <p><strong>Title: </strong><xsl:apply-templates/></p>
+        
+    </xsl:template>
+    
+    
     
     <xsl:template match="note[@type='editorial']">
         <span class="ednote">&#10086;
