@@ -82,7 +82,12 @@
         <xsl:choose>
             <xsl:when test="contains(@unit, 'line')">
                 <br/>
-                <img src="milestone.jpg"/>
+                
+                <xsl:element name="img">
+                    <xsl:attribute name="src">
+                        <xsl:value-of select="concat('resized_photos40/','milestone.jpg')"/>
+                    </xsl:attribute>
+                </xsl:element>  
                 <br/>
             </xsl:when>
 
@@ -129,7 +134,7 @@
         <xsl:apply-templates/>
         <xsl:element name="img">
             <xsl:attribute name="src">
-                <xsl:value-of select="concat('resized_photos60/',@facs)"/>
+                <xsl:value-of select="concat('resized_photos40/',@facs)"/>
             </xsl:attribute>
            
            
