@@ -82,12 +82,14 @@
         <xsl:choose>
             <xsl:when test="contains(@unit, 'line')">
                 <br/>
-                
-                <xsl:element name="img">
+                <center>
+                <p>&#9473;&#9473;&#9473;&#9473;&#9473;&#9473;&#9473;</p>
+                </center>
+                <!--     <xsl:element name="img">
                     <xsl:attribute name="src">
                         <xsl:value-of select="concat('resized_photos40/','milestone.jpg')"/>
                     </xsl:attribute>
-                </xsl:element>  
+                </xsl:element>  -->  
                 <br/>
             </xsl:when>
 
@@ -130,6 +132,7 @@
         
         <!-- This is a way to do dynamic output elements -->
         <br/>
+        <center>
 
         <xsl:apply-templates/>
         <xsl:element name="img">
@@ -139,22 +142,23 @@
            
            
         </xsl:element>    
-        <br/>
+        </center>
+            <br/>
         
 
     </xsl:template>
     
     <xsl:template match="caption">
-        
+        <center>
         <p><strong>Caption: </strong><xsl:apply-templates/></p>
-        
+        </center>
 
     </xsl:template>
     
     <xsl:template match="head">
-        
+        <center>   
         <p><strong>Title: </strong><xsl:apply-templates/></p>
-        
+        </center>
     </xsl:template>
     
     
