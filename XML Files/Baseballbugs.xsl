@@ -17,12 +17,18 @@
         <html>
             <head>
                 <!-- Eventually we will put the reference to the CSS file here -->
+                <link href="css/BBBCSS.css" rel="stylesheet"/>
+                
             </head>
             <body>
+                <!-- 
                 <xsl:call-template name="ParagraphCounter"/>
+                 -->
                 <xsl:apply-templates/>
                 <!-- Try using an XPath selection on apply-templates. -->
+                <!-- 
                 <p>****THIS POEM CONTAINS <xsl:value-of select="count(//l)"/> LINES****</p>
+                 -->
             </body>
         </html>
     </xsl:template>
@@ -72,6 +78,18 @@
        </div>
     </xsl:template>
     
+    <xsl:template match="fileDesc">
+        <div style="margin-left:200px; margin-right:200px;text-align:left;">
+            <xsl:apply-templates/>
+        </div>
+    </xsl:template>
+    
+    <xsl:template match="revisionDesc">
+        <div style="margin-left:200px; margin-right:200px;text-align:left;">
+            <xsl:apply-templates/>
+        </div>
+    </xsl:template>
+    
     <xsl:template match="lg">
         
         
@@ -105,13 +123,14 @@
         <br/>-->
     </xsl:template>
     
-
+<!-- 
     <xsl:template name="ParagraphCounter">
         <p>
             THIS is a book.  It has <xsl:value-of select="count(//p)"/> paragraphs
         </p>
     </xsl:template>
-
+ -->
+    
   
     <xsl:template match="pb">
         <br/>
@@ -151,12 +170,9 @@
     </xsl:template>
     
     <xsl:template match="caption">
-        <center>
-        <p><strong>Caption: </strong><xsl:apply-templates/></p>
-        </center>
         
         <div style="text-align:center; margin-left:200px;margin-right:200px;">
-            <xsl:apply-templates/>
+            <p><strong>Caption: </strong><xsl:apply-templates/></p>
         </div>
     </xsl:template>
     
