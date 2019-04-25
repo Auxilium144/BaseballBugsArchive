@@ -36,6 +36,8 @@
     
     <xsl:template match="div">
         <div>
+         
+            
             <!--    
         <xsl:value-of select="poem"/> 
         This is how you select the value within div--> 
@@ -65,17 +67,17 @@
     </xsl:template>    
     
     <xsl:template match="p">
-        
+       <div style="margin-left:200px; margin-right:200px;text-align:left;">
         <xsl:apply-templates/>
-    
+       </div>
     </xsl:template>
     
     <xsl:template match="lg">
         
-        <p>
-            <xsl:apply-templates/>                        
-        </p>
         
+        <div style="text-align: center;">
+            <xsl:apply-templates/>                        
+        </div>                   
     </xsl:template>
     
     <xsl:template match="milestone">
@@ -152,7 +154,10 @@
         <center>
         <p><strong>Caption: </strong><xsl:apply-templates/></p>
         </center>
-
+        
+        <div style="text-align:center; margin-left:200px;margin-right:200px;">
+            <xsl:apply-templates/>
+        </div>
     </xsl:template>
     
     <xsl:template match="head">
@@ -169,7 +174,6 @@
             <xsl:apply-templates/>
         </span></span>
     </xsl:template>
-    
     
     
 </xsl:stylesheet>
