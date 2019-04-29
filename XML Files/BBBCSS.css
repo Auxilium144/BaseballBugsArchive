@@ -1,3 +1,14 @@
 body{
-    background-color: blue;
+    background-color: lightblue;
+}
+
+.poem{
+    border-style: solid;
+    border-color: red;
+    box-sizing: content-box;
+}
+.comic{
+    border-style: solid;
+    border-color: green;
+    box-sizing: content-box;
 }

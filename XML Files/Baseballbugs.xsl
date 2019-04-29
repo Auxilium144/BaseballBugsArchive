@@ -39,25 +39,48 @@
         <br/>
         
     </xsl:template>
+   
+    <xsl:attribute-set name="myBorder">
+        <xsl:attribute name="border">solid 0.1mm black</xsl:attribute>
+    </xsl:attribute-set>
+
+    <xsl:template match="div[@type='section']">
+        <div class="section" style="margin-left:200px; margin-right:200px;text-align:left;">
+            <br/>
+            <xsl:apply-templates/>
+            <br/>
+        </div>
+    </xsl:template>    
+   
+    <xsl:template match="div[@type='poem']">
+        <!--<div style="border: solid black;">-->
+        <div class="poem" style="margin-left:200px; margin-right:200px;text-align:left;">
+            <br/>
+            <xsl:apply-templates/>
+        </div>
+  
+    </xsl:template>
     
-    <xsl:template match="div">
-        <div>
-         
+    <xsl:template match="div[@type='comic']">
+        <div class="comic" style="margin-left:200px; margin-right:200px;text-align:left;">
             
-            <!--    
-        <xsl:value-of select="poem"/> 
-        This is how you select the value within div--> 
-
-                
-                <xsl:apply-templates/>
-
+            <br/>
+            <xsl:apply-templates/>
+            
         </div>
     </xsl:template>
+    
+   
+    
+<!--    <xsl:template match="div[@type='poem']">
+        <div class="divborders"/>
+        <xsl:apply-templates/>
+    </xsl:template>-->
     
     <xsl:template match="teiHeader">
         <br/>
         <xsl:apply-templates/>
-        <br/>        
+              
     </xsl:template>
     
     <xsl:template match="head[@type='chapter']">
@@ -110,17 +133,11 @@
                         <xsl:value-of select="concat('resized_photos40/','milestone.jpg')"/>
                     </xsl:attribute>
                 </xsl:element>  -->  
-                <br/>
+
             </xsl:when>
 
         </xsl:choose>
-        
-        
-        <!--        <br/>
-        <p>
-        -\-\-\-\-\-\-\-\-\-
-        </p>
-        <br/>-->
+
     </xsl:template>
     
 <!-- 
@@ -133,18 +150,9 @@
     
   
     <xsl:template match="pb">
+        
         <br/>
-<!--        <xsl:element name="img">
-            <xsl:attribute name="src">
-               <!-\\-  
-                <xsl:value-of select="concat('full/',@facs)"/>
-                -\\->
-                <xsl:value-of select="@facs"/>
-            </xsl:attribute>
-            <xsl:attribute name="width">
-                <xsl:value-of select="'300'"/>
-            </xsl:attribute>
-        </xsl:element> -->           
+        
     </xsl:template>
     
     <xsl:template match="figure">
