@@ -44,8 +44,8 @@
         <xsl:attribute name="border">solid 0.1mm black</xsl:attribute>
     </xsl:attribute-set>
 
-    <xsl:template match="div[@type='section']">
-        <div class="section" style="margin-left:200px; margin-right:200px;text-align:left;">
+    <xsl:template match="div[@type='joke']">
+        <div class="joke" style="margin-left:200px; margin-right:200px;text-align:left;">
             <br/>
             <xsl:apply-templates/>
             <br/>
