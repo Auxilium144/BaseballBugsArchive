@@ -108,10 +108,43 @@
     </xsl:template>
     
     <xsl:template match="revisionDesc">
-        <div style="margin-left:200px; margin-right:200px;text-align:left;">
+        <div style="margin-left:200px; margin-right:200px;text-align:center;">
+            <br/>
             <xsl:apply-templates/>
         </div>
     </xsl:template>
+    
+    <xsl:template match="sourceDesc">
+        <div style="margin-left:200px; margin-right:200px;text-align:center;">
+            <xsl:apply-templates/>
+        </div>
+    </xsl:template>
+    
+    <xsl:template match="notesStmt">
+        <div style="margin-left:200px; margin-right:200px;text-align:center;">
+            <br/>
+            <xsl:apply-templates/>
+        </div>
+    </xsl:template>
+    <xsl:template match="titleStmt">
+        <div style="margin-left:200px; margin-right:200px;text-align:center;">
+            
+            <xsl:apply-templates/>
+        </div>
+    </xsl:template>
+    <xsl:template match="editionStmt">
+        <div style="margin-left:200px; margin-right:200px;text-align:Center;">
+            <br/>
+            <xsl:apply-templates/>
+        </div>
+    </xsl:template>
+    <xsl:template match="publicationStmt">
+        <div style="margin-left:200px; margin-right:200px;text-align:Center;">
+            <br/>
+            <xsl:apply-templates/>
+        </div>
+    </xsl:template>
+    
     
     <xsl:template match="lg">
         
